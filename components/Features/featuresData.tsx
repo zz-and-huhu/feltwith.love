@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const featuresData: Feature[] = [
   {
-    id: 0,
+    id: "customization",
     icon: (
       <Image
         src="/images/features/customized.png"
@@ -17,21 +17,7 @@ const featuresData: Feature[] = [
       "Cats, dogs, rabbits, piggies, guinea pigs, pandas(no way!), and even more - no matter what kind of pet you have at home, feel free to send me their photos and entrust them to me!",
   },
   {
-    id: 1,
-    icon: (
-      <Image
-        src="/images/features/quality.png"
-        alt="customized"
-        width={900}
-        height={900}
-      />
-    ),
-    title: "Premium Quality",
-    paragraph:
-      "I prioritize the highest quality wool as well as meticulously selected components like eyes, noses, and claws. From premium materials to careful sourcing, I ensure exceptional softness, durability, and attention to detail in every aspect of my creations.",
-  },
-  {
-    id: 2,
+    id: "handcrafted",
     icon: (
       <Image
         src="/images/features/handcrafted.png"
@@ -45,7 +31,7 @@ const featuresData: Feature[] = [
       "Every piece I create is meticulously handcrafted by me, ensuring attention to detail and a passion for the art of felting. Each product is a true work of art, made with love and care.",
   },
   {
-    id: 3,
+    id: "eco",
     icon: (
       <Image
         src="/images/features/eco.png"
@@ -57,6 +43,20 @@ const featuresData: Feature[] = [
     title: "Eco-Friendly Practices",
     paragraph:
       "I am committed to sustainability and minimizing the environmental impact. The felting process incorporates eco-friendly techniques and materials.",
+  },
+  {
+    id: "quality",
+    icon: (
+      <Image
+        src="/images/features/quality.png"
+        alt="customized"
+        width={900}
+        height={900}
+      />
+    ),
+    title: "Premium Quality",
+    paragraph:
+      "I prioritize the highest quality wool as well as meticulously selected components like eyes, noses, and claws. From premium materials to careful sourcing, I ensure exceptional softness, durability, and attention to detail in every aspect of my creations.",
   },
 ];
 export default featuresData;
