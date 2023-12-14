@@ -14,7 +14,7 @@ const featuresData: Feature[] = [
     ),
     title: "Complete Customization",
     paragraph:
-      "Cats, dogs, rabbits, piggies, guinea pigs, pandas(no way!), and even more - no matter what kind of pet you have at home, feel free to send me their photos and entrust them to me!",
+      "Got a furry friend at home? Whether it's a cat, dog, bird, rabbit, guinea pig, or any other pet, you can count on us to create a customized masterpiece just for them! Simply send us their photos and trust us to work our magic!",
   },
   {
     id: "handcrafted",
@@ -28,7 +28,7 @@ const featuresData: Feature[] = [
     ),
     title: "Handcrafted Excellence",
     paragraph:
-      "Every piece I create is meticulously handcrafted by me, ensuring attention to detail and a passion for the art of felting. Each product is a true work of art, made with love and care.",
+      "Every piece is meticulously handcrafted by me and other fiber artists, ensuring attention to detail and a passion for the art of felting. Each product is a true work of art, made with love and care.",
   },
   {
     id: "eco",

@@ -8,13 +8,13 @@ const Hero = () => {
         id="home"
         className="bg-red relative z-10 flex-col overflow-hidden pb-16 pt-[120px] align-middle md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
       >
-        <div className="absolute -bottom-36 right-3 ">
+        <div className="absolute bottom-0 right-3 ">
           <Image
             src="/images/hero/heroCat.png"
             alt="heroCat"
-            width={800}
+            width={700}
             height={1000}
-            style={{ objectFit: "cover", objectPosition: "-6px 100%" }}
+            style={{ objectFit: "cover", objectPosition: "0 100%" }}
           />
         </div>
         <div className="container flex  items-center justify-center">
