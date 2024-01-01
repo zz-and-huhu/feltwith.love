@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Image from "next/image";
 
 const Hero = () => {
@@ -6,15 +5,15 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="relative z-10 flex-col overflow-hidden pb-16 pt-[120px] align-middle md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
+        className="bg-red relative z-10 flex-col overflow-hidden pb-16 pt-[120px] align-middle md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
       >
-        <div className="absolute -bottom-36 right-3 ">
+        <div className="absolute bottom-0 right-3 ">
           <Image
             src="/images/hero/heroCat.png"
             alt="heroCat"
-            width={800}
+            width={700}
             height={1000}
-            style={{ objectFit: "cover", objectPosition: "-6px 100%" }}
+            style={{ objectFit: "cover", objectPosition: "0 100%" }}
           />
         </div>
         <div className="container flex  items-center justify-center">
@@ -32,12 +31,12 @@ const Hero = () => {
                   Close
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-                  <Link
-                    href="https://nextjstemplates.com/templates/saas-starter-startup"
+                  <a
+                    href="#pricing"
                     className="rounded-md bg-orange px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-orange/80"
                   >
-                    🔥 Order Now
-                  </Link>
+                    🛒 How to Order
+                  </a>
                 </div>
               </div>
             </div>
