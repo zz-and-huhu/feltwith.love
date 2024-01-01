@@ -8,7 +8,10 @@ const Pricing = () => {
   const [isMonthly, setIsMonthly] = useState(true);
 
   return (
-    <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
+    <section
+      id="pricing"
+      className="relative z-10 bg-primary/[.03] py-16 md:py-20 lg:py-28"
+    >
       <div className="container">
         <SectionTitle
           title="Simple and Affordable Pricing"
@@ -103,7 +106,7 @@ const Pricing = () => {
         </div>
       </div>
 
-      <div className="absolute left-0 bottom-0 z-[-1]">
+      <div className="absolute bottom-0 left-0 z-[-1]">
         <svg
           width="239"
           height="601"

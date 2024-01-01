@@ -6,7 +6,7 @@ const title = "Who am i";
 const selfIntro =
   "Hi, i am Wendy Zhang, a full time needle felting artist, mother of two.\n As a woman in her mid-forties, I never thought I would discover a new passion in life. But five years ago, I stumbled upon the art of needle felting and my life has been changed. \n At first, it was just a hobby. I would spend hours creating little felt animals and experimenting with different techniques. But soon, I found my daughter loves my work and even sleep with a felted sheep. And my friends and family started to take notice of my creations and began placing orders for their own custom pieces. \n It wasn't long before I realized that I could turn my newfound passion into a career. I started selling my needle felted creations at local craft fairs and online, and the response was overwhelming. People loved the unique and whimsical designs that I created, and I loved the satisfaction of bringing joy to others through my art. \n Now, five years later, I am proud to say that I am a full-time needle felting artist. I pour my heart and soul into every creation, carefully crafting each piece by hand with the utmost care and attention to detail. \n If you're looking for a truly one-of-a-kind gift or decoration for your home, I invite you to explore my collection of needle felted creations. From cute key-chains or framed portraits to cuddly Whole body product, there's something for everyone in my shop. \n Thank you for considering supporting my art and allowing me to continue doing what I love every day.";
 
-const AboutSectionOne = () => {
+const AboutMe = () => {
   return (
     <section id="about" className="pt-16 md:pt-20 lg:pt-28">
       <div className="container">
@@ -25,10 +25,10 @@ const AboutSectionOne = () => {
                 data-wow-delay=".2s"
               >
                 <Image
-                  src="/images/about/about-image.jpg"
-                  alt="about-image"
+                  src="/images/about/about-me.jpg"
+                  alt="about-me"
                   fill
-                  className="mx-auto max-w-full lg:mr-0"
+                  className="mx-auto max-w-full rounded-lg lg:mr-0"
                 />
               </div>
             </div>
@@ -39,4 +39,4 @@ const AboutSectionOne = () => {
   );
 };
 
-export default AboutSectionOne;
+export default AboutMe;

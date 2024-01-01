@@ -1,4 +1,4 @@
-import AboutSectionOne from "@/components/About/AboutSectionOne";
+import AboutMe from "@/components/About/AboutMe";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Blog from "@/components/Blog";
 import Brands from "@/components/Brands";
@@ -20,10 +20,10 @@ export default function Home() {
       <Hero />
       <Features />
       {/* <Brands /> */}
-      <AboutSectionOne />
       <Testimonials />
       <Pricing />
-      <Blog />
+      <AboutMe />
+      {/* <Blog /> */}
     </>
   );
 }

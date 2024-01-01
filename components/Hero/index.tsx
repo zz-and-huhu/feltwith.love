@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Image from "next/image";
 
 const Hero = () => {
@@ -32,12 +31,12 @@ const Hero = () => {
                   Close
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-                  <Link
-                    href="https://nextjstemplates.com/templates/saas-starter-startup"
+                  <a
+                    href="#pricing"
                     className="rounded-md bg-orange px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-orange/80"
                   >
-                    🔥 Order Now
-                  </Link>
+                    🛒 How to Order
+                  </a>
                 </div>
               </div>
             </div>
