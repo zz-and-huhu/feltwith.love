@@ -1,11 +1,57 @@
 "use client";
-import { useState } from "react";
 import SectionTitle from "../Common/SectionTitle";
 import OfferList from "./OfferList";
 import PricingBox from "./PricingBox";
 
 const Pricing = () => {
-  const [isMonthly, setIsMonthly] = useState(true);
+  const orderSteps = [
+    "📧 Get in touch with me directly! To place an order, simply send me an email at <a href='mailto:your-email@example.com'>your-email@example.com</a>, and I guarantee a response within 12 hours.",
+    "📷 To order, please provide lots of photos of your beloved pet from different angles (front, side, top). These photos serve as the foundation for my craftsmanship and enable me to capture your pet's unique personality.",
+    "🐈‍⬛ I will share photos of the finished piece for your approval before shipping. I won't proceed until I have your consent. I'm happy to make any necessary adjustments until you're completely satisfied.",
+    "✈️ Each piece typically takes 20-30 days to complete (excluding modifications) and will be shipped in about 10 days thereafter. Thank you for your patience during this process.",
+    "💅 Please note that all my works are 100% custom-made for you. If you have specific requests, such as adding accessories like hats or charms, or adding your pet's distinctive markings, please let me know, and I'll be happy to accommodate them. As each handmade product is unique, I'm unable to support returns or exchanges.",
+    "🎁 A needle-felted creation makes a truly heartfelt gift. Whether it's for a birthday, anniversary, or special occasion, I can create a memorable piece that will be cherished for years to come.  Let me know if you require gift wrapping or a personalized note to accompany your order.",
+  ];
+
+  const keyChainFeature = [
+    "Size of face: about 3 inches in width and 6 inches in height",
+    "Can be used as Key chains, Wedding lapel pin, Ornaments, etc",
+  ];
+  const frameFeature = [
+    "The frame measures approximately 7 * 7 inches",
+    "The finished product is ready to hang on the wall to make adorable decors",
+  ];
+  const bodyFeature = [
+    "Size about half a palm 🤲 incredibly cute",
+    "I can handle any posture of your fuzz baby, just send me pictures!",
+  ];
+
+  const menu = [
+    {
+      packageName: "Portrait Key-chain or Pin",
+      price: "200",
+      subtitle: "Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim.",
+      children: keyChainFeature.map((v, index) => (
+        <OfferList key={index} text={v} status="active" />
+      )),
+    },
+    {
+      packageName: "Framed Portrait",
+      price: "260",
+      subtitle: "Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim.",
+      children: frameFeature.map((v, index) => (
+        <OfferList key={index} text={v} status="active" />
+      )),
+    },
+    {
+      packageName: "Full Body Sculpture",
+      price: "220",
+      subtitle: "Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim.",
+      children: bodyFeature.map((v, index) => (
+        <OfferList key={index} text={v} status="active" />
+      )),
+    },
+  ];
 
   return (
     <section
@@ -14,151 +60,36 @@ const Pricing = () => {
     >
       <div className="container">
         <SectionTitle
-          title="Simple and Affordable Pricing"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="How to Order & Pricing Plan"
           center
           width="665px"
         />
 
-        <div className="w-full">
-          <div
-            className="wow fadeInUp mb-8 flex justify-center md:mb-12 lg:mb-16"
-            data-wow-delay=".1s"
-          >
-            <span
-              onClick={() => setIsMonthly(true)}
-              className={`${
-                isMonthly
-                  ? "pointer-events-none text-primary"
-                  : "text-dark dark:text-white"
-              } mr-4 cursor-pointer text-base font-semibold`}
-            >
-              Monthly
-            </span>
-            <div
-              onClick={() => setIsMonthly(!isMonthly)}
-              className="flex cursor-pointer items-center"
-            >
-              <div className="relative">
-                <div className="h-5 w-14 rounded-full bg-[#1D2144] shadow-inner"></div>
-                <div
-                  className={`${
-                    isMonthly ? "" : "translate-x-full"
-                  } shadow-switch-1 absolute left-0 top-[-4px] flex h-7 w-7 items-center justify-center rounded-full bg-primary transition`}
-                >
-                  <span className="active h-4 w-4 rounded-full bg-white"></span>
-                </div>
-              </div>
-            </div>
-            <span
-              onClick={() => setIsMonthly(false)}
-              className={`${
-                isMonthly
-                  ? "text-dark dark:text-white"
-                  : "pointer-events-none text-primary"
-              } ml-4 cursor-pointer text-base font-semibold`}
-            >
-              Yearly
-            </span>
-          </div>
+        <div className="mb-12 px-0 md:px-16 lg:px-24">
+          <ul className="text-gray-700 ml-8 text-base">
+            {orderSteps.map((v, index) => (
+              <li
+                key={index}
+                className="mb-4 text-xl leading-relaxed first-letter:text-5xl"
+              >
+                {v}
+              </li>
+            ))}
+          </ul>
         </div>
 
-        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
-          <PricingBox
-            packageName="Lite"
-            price={isMonthly ? "40" : "120"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
-          >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="inactive" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
-          </PricingBox>
-          <PricingBox
-            packageName="Basic"
-            price={isMonthly ? "399" : "789"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
-          >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
-          </PricingBox>
-          <PricingBox
-            packageName="Plus"
-            price={isMonthly ? "589" : "999"}
-            duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
-          >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="active" />
-          </PricingBox>
+        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-1 lg:grid-cols-3">
+          {menu.map((v) => (
+            <PricingBox
+              key={v.packageName}
+              packageName={v.packageName}
+              price={v.price}
+              subtitle={v.subtitle}
+            >
+              {v.children}
+            </PricingBox>
+          ))}
         </div>
-      </div>
-
-      <div className="absolute bottom-0 left-0 z-[-1]">
-        <svg
-          width="239"
-          height="601"
-          viewBox="0 0 239 601"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <rect
-            opacity="0.3"
-            x="-184.451"
-            y="600.973"
-            width="196"
-            height="541.607"
-            rx="2"
-            transform="rotate(-128.7 -184.451 600.973)"
-            fill="url(#paint0_linear_93:235)"
-          />
-          <rect
-            opacity="0.3"
-            x="-188.201"
-            y="385.272"
-            width="59.7544"
-            height="541.607"
-            rx="2"
-            transform="rotate(-128.7 -188.201 385.272)"
-            fill="url(#paint1_linear_93:235)"
-          />
-          <defs>
-            <linearGradient
-              id="paint0_linear_93:235"
-              x1="-90.1184"
-              y1="420.414"
-              x2="-90.1184"
-              y2="1131.65"
-              gradientUnits="userSpaceOnUse"
-            >
-              <stop stopColor="#4A6CF7" />
-              <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
-            </linearGradient>
-            <linearGradient
-              id="paint1_linear_93:235"
-              x1="-159.441"
-              y1="204.714"
-              x2="-159.441"
-              y2="915.952"
-              gradientUnits="userSpaceOnUse"
-            >
-              <stop stopColor="#4A6CF7" />
-              <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
-            </linearGradient>
-          </defs>
-        </svg>
       </div>
     </section>
   );

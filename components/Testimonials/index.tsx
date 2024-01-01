@@ -35,7 +35,7 @@ const Testimonials = () => {
       <div className="container">
         <SectionTitle
           title="What My Customers Say"
-          paragraph="I am looking forward to hearing from you!"
+          paragraph="Your satisfaction is my utmost priority. I am looking forward to hearing from you!"
           center
         />
 
