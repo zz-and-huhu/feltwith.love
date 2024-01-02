@@ -5,22 +5,13 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="bg-red relative z-10 flex-col overflow-hidden pb-16 pt-[120px] align-middle md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
+        className="bg-red relative z-10 flex-col overflow-hidden pt-[120px] align-middle md:pt-[150px] xl:pt-[180px] 2xl:pt-[210px]"
       >
-        <div className="absolute bottom-0 right-3 ">
-          <Image
-            src="/images/hero/heroCat.png"
-            alt="heroCat"
-            width={700}
-            height={1000}
-            style={{ objectFit: "cover", objectPosition: "0 100%" }}
-          />
-        </div>
         <div className="container flex  items-center justify-center">
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4">
               <div
-                className="wow fadeInUp mx-auto max-w-[800px] text-center"
+                className="wow fadeInUp mx-auto  max-w-[800px] text-center"
                 data-wow-delay=".2s"
               >
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
@@ -37,6 +28,15 @@ const Hero = () => {
                   >
                     🛒 How to Order
                   </a>
+                </div>
+                <div className="flex justify-end pt-4">
+                  <Image
+                    src="/images/hero/heroCat.jpg"
+                    alt="heroCat"
+                    width={700}
+                    height={1000}
+                    style={{ objectFit: "cover", objectPosition: "0 100%" }}
+                  />
                 </div>
               </div>
             </div>
