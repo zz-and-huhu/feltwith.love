@@ -149,12 +149,12 @@ const Header = () => {
                 </nav>
               </div>
               <div className="flex items-center justify-end pr-16 lg:pr-0">
-                <Link
+                <a
                   href="#pricing"
                   className="hidden px-7 py-3 text-base font-bold text-dark hover:opacity-70 dark:text-white md:block"
                 >
                   Order by Email
-                </Link>
+                </a>
               </div>
             </div>
           </div>
