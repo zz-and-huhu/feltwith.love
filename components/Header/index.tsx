@@ -152,6 +152,7 @@ const Header = () => {
                 <a
                   href="#pricing"
                   className="hidden px-7 py-3 text-base font-bold text-dark hover:opacity-70 dark:text-white md:block"
+                
                 >
                   Order by Email
                 </a>
