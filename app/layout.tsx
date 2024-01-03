@@ -1,5 +1,6 @@
 "use client";
-
+import { Providers } from "./providers";
+import Script from "next/script";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import ScrollToTop from "@/components/ScrollToTop";
@@ -13,11 +14,18 @@ export default function RootLayout({
 }) {
   return (
     <html suppressHydrationWarning lang="en">
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
-      <head />
+      <head>
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-H427LSWEWR" />
+        <Script id="google-analytics">
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+ 
+          gtag('config', 'G-H427LSWEWR');
+        `}
+        </Script>
+      </head>
 
       <body>
         <Providers>
@@ -30,5 +38,3 @@ export default function RootLayout({
     </html>
   );
 }
-
-import { Providers } from "./providers";
