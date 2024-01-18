@@ -26,7 +26,7 @@ const Hero = () => {
                     href="#pricing"
                     className="rounded-md bg-orange px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-orange/80"
                   >
-                    🛒 How to Order
+                    How to Order
                   </a>
                 </div>
                 <div className="flex justify-end pt-4">
