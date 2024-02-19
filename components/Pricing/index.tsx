@@ -8,7 +8,10 @@ const Pricing = () => {
     <p>
       📧 Get in touch with me directly! To place an order, simply send me an
       email at{" "}
-      <a style={{ color: "blue" }} href="mailto:wendy@feltwith.love">
+      <a
+        style={{ color: "blue", fontWeight: 600 }}
+        href="mailto:wendy@feltwith.love"
+      >
         wendy@feltwith.love
       </a>
       , and I guarantee a response within 12 hours.
@@ -66,9 +69,9 @@ const Pricing = () => {
       className="relative z-10 bg-primary/[.03] py-16 md:py-20 lg:py-28"
     >
       <div className="container">
-        <SectionTitle title="Pricing & How to Order" center width="665px" />
+        <SectionTitle title="Pricing" center width="665px" mb="40px" />
 
-        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-1 lg:grid-cols-3">
+        <div className="mb-20 grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-1 lg:grid-cols-3">
           {menu.map((v) => (
             <PricingBox
               key={v.packageName}
@@ -81,12 +84,13 @@ const Pricing = () => {
           ))}
         </div>
 
+        <SectionTitle title="How to Order" center width="665px" mb="40px" />
         <div className="mt-12 px-0 md:px-16 lg:px-24">
           <ul className="text-gray-700 ml-8 text-base">
             {orderSteps.map((v, index) => (
               <li
                 key={index}
-                className="mb-4 text-xl leading-relaxed first-letter:text-5xl"
+                className="mb-5 text-lg leading-relaxed first-letter:text-4xl "
               >
                 {v}
               </li>
