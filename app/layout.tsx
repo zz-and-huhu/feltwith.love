@@ -45,7 +45,6 @@ export default function RootLayout({
           }}
         />
       </head>
-
       <body>
         {/* Google Tag Manager (noscript) */}
         <noscript>
