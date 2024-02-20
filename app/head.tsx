@@ -7,11 +7,6 @@ export default function Head() {
         name="description"
         content="Needle felted custom wool animal portrait, key-chain or sculpture. 100% handmade. Best Choice of gifts or for memories."
       />
-      {/* <link
-        rel="icon"
-        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐈</text></svg>"
-      /> */}
-      {/* <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" /> */}
       <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
     </>
   );
