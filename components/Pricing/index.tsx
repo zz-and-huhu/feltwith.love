@@ -40,7 +40,10 @@ const Pricing = () => {
     {
       packageName: "Portrait Key-chain or Pin",
       price: "180",
-      img: { src: "/images/pricing/key-chain.jpg", alt: "key-chain" },
+      img: {
+        src: "/images/pricing/key-chain.jpg",
+        alt: "felted key chain of your pet",
+      },
       children: keyChainFeature.map((v, index) => (
         <OfferList key={index} text={v} status="active" />
       )),
@@ -48,7 +51,10 @@ const Pricing = () => {
     {
       packageName: "3D Framed Portrait",
       price: "260",
-      img: { src: "/images/pricing/frame.jpg", alt: "frame" },
+      img: {
+        src: "/images/pricing/frame.jpg",
+        alt: "framed portrait of felted pet",
+      },
       children: frameFeature.map((v, index) => (
         <OfferList key={index} text={v} status="active" />
       )),
@@ -56,7 +62,10 @@ const Pricing = () => {
     {
       packageName: "Full Body Sculpture",
       price: "280",
-      img: { src: "/images/pricing/full-body.jpg", alt: "full-body" },
+      img: {
+        src: "/images/pricing/full-body.jpg",
+        alt: "full-body sculpture of felted pet",
+      },
       children: bodyFeature.map((v, index) => (
         <OfferList key={index} text={v} status="active" />
       )),
@@ -69,7 +78,13 @@ const Pricing = () => {
       className="relative z-10 bg-primary/[.03] py-16 md:py-20 lg:py-28"
     >
       <div className="container">
-        <SectionTitle title="Pricing" center width="665px" mb="40px" />
+        <SectionTitle
+          title="Products for choices 🛍️"
+          center
+          width="665px"
+          mb="40px"
+          paragraph="100% customized, and please note if you have any special requirements"
+        />
 
         <div className="mb-20 grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-1 lg:grid-cols-3">
           {menu.map((v) => (

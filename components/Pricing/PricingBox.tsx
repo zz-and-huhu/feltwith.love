@@ -3,11 +3,10 @@ import Image from "next/image";
 const PricingBox = (props: {
   price: string;
   packageName: string;
-  subtitle?: string;
   img: { src: string; alt: string };
   children: React.ReactNode;
 }) => {
-  const { price, packageName, subtitle, img, children } = props;
+  const { price, packageName, img, children } = props;
 
   return (
     <div className="w-full">
@@ -21,10 +20,7 @@ const PricingBox = (props: {
             $<span className="amount">{price}</span>
           </h3>
         </div>
-        {subtitle && (
-          <p className="mb-7 text-base text-body-color">{subtitle}</p>
-        )}
-        <div className="relative mb-4 aspect-[25/28] max-w-xs  overflow-hidden rounded-md md:w-full lg:w-full">
+        <div className="relative mb-4 aspect-[25/28] w-full   overflow-hidden rounded-md md:w-full lg:w-full">
           <Image src={img.src} alt={img.alt} fill />
         </div>
         <div>{children}</div>
