@@ -34,8 +34,8 @@ const Testimonials = () => {
     <section className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What My Customers Say"
-          paragraph="Your satisfaction is my utmost priority. I am looking forward to hearing from you!"
+          title="Recent pieces of works"
+          paragraph="Your satisfaction is my utmost priority!"
           center
         />
 
