@@ -33,11 +33,7 @@ const Testimonials = () => {
   return (
     <section className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
-        <SectionTitle
-          title="Recent pieces of works"
-          paragraph="Your satisfaction is my utmost priority!"
-          center
-        />
+        <SectionTitle title="Recent pieces of works" paragraph="" center />
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           {testimonialData.map((testimonial) => (
