@@ -14,21 +14,22 @@ const Pricing = () => {
       >
         wendy@feltwith.love
       </a>
-      , and I guarantee a response within 12 hours.
+      , and I guarantee a response within 24 hours.
     </p>,
-    "📷 Please attach at least three photos of your beloved pet from different angles (front, side, top, the more the better) in the email. These photos serve as the foundation for my craftsmanship and enable me to capture your pet's unique personality.",
-    "🐈‍⬛ I will share photos of the finished piece for your approval before shipping. I won't proceed until I have your consent. I'm happy to make any necessary adjustments until you're completely satisfied.",
-    "✈️ Each piece typically takes 20-40 days to complete (excluding modifications) and will be shipped in about 10 working days thereafter. Thank you for your patience during this process.",
-    "💅 Please note that all my works are 100% custom-made for you. If you have specific requests, such as adding accessories like hats or charms, or adding your pet's distinctive markings, please let me know, and I'll be happy to accommodate them. As each handmade product is unique, I'm unable to support returns or exchanges after shipping.",
-    "🎁 A needle-felted creation makes a truly heartfelt gift. Whether it's for a birthday, anniversary, or special occasion, I can create a memorable piece that will be cherished for years to come. Let me know if you require gift wrapping or a personalized note to accompany your order.",
+    "📷 I'd love to see many photos of your beloved pet from different angles - front, side, top, the more the better. These photos are crucial for me to really capture your pet's unique personality and likeness in the finished piece.",
+    "🐈‍⬛ I'll be sure to share photos of the completed artwork with you before shipping, so you can approve it. And if you'd like me to make any adjustments, just let me know.",
+    "✈️ Each piece typically takes 20-40 days to complete (excluding modifications) and will be shipped in about 10 working days thereafter. Just a heads up that pets with more complicated color patterns take me extra time to get just right. I really appreciate your patience!",
+    "💅 Please note that all my works are 100% hand-made for you. If you have specific requests, such as adding accessories like hats or charms, or adding your pet's distinctive markings, please let me know, and I'll be happy to accommodate them. As each handmade product is unique, I'm unable to support returns or exchanges after shipping.",
+    "🎁 A needle-felted creation makes a truly heartfelt gift. Whether it's for a birthday, anniversary, or special occasion, I can create a memorable piece that will be cherished for years to come. I'd be happy to include gift wrapping or a personalized note if you need that as well. Just let me know how I can make this the perfect present.",
   ];
 
   const keyChainFeature = [
-    "Size of face: about 3 inches in width and 6 inches in height",
+    "Size of face: about 3 inches in width and height",
     "Can be used as Key chains, Wedding lapel pin, Ornaments, etc",
   ];
   const frameFeature = [
-    "The frame measures approximately 7 * 7 inches",
+    "Size of face: about 4 inches in width and height",
+    "The shape and material of frame can be customized",
     "The finished product is ready to hang on the wall to make adorable decors",
   ];
   const bodyFeature = [
@@ -39,7 +40,7 @@ const Pricing = () => {
   const menu = [
     {
       packageName: "Portrait Key-chain or Pin",
-      price: "180",
+      price: "160-200",
       img: {
         src: "/images/pricing/key-chain.jpg",
         alt: "felted key chain of your pet",
@@ -50,7 +51,7 @@ const Pricing = () => {
     },
     {
       packageName: "3D Framed Portrait",
-      price: "260",
+      price: "260-300",
       img: {
         src: "/images/pricing/frame.jpg",
         alt: "framed portrait of felted pet",
@@ -59,17 +60,17 @@ const Pricing = () => {
         <OfferList key={index} text={v} status="active" />
       )),
     },
-    {
-      packageName: "Full Body Sculpture",
-      price: "280",
-      img: {
-        src: "/images/pricing/full-body.jpg",
-        alt: "full-body sculpture of felted pet",
-      },
-      children: bodyFeature.map((v, index) => (
-        <OfferList key={index} text={v} status="active" />
-      )),
-    },
+    // {
+    //   packageName: "Full Body Sculpture",
+    //   price: "280",
+    //   img: {
+    //     src: "/images/pricing/full-body.jpg",
+    //     alt: "full-body sculpture of felted pet",
+    //   },
+    //   children: bodyFeature.map((v, index) => (
+    //     <OfferList key={index} text={v} status="active" />
+    //   )),
+    // },
   ];
 
   return (
@@ -86,7 +87,7 @@ const Pricing = () => {
           paragraph="100% customized, and please note if you have any special requirements"
         />
 
-        <div className="mb-20 grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-1 lg:grid-cols-3">
+        <div className="mb-20 grid grid-cols-1 gap-x-10 gap-y-10 px-20 md:grid-cols-1 lg:grid-cols-2">
           {menu.map((v) => (
             <PricingBox
               key={v.packageName}
