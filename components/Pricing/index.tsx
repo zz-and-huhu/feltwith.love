@@ -29,8 +29,8 @@ const Pricing = () => {
   ];
   const frameFeature = [
     "Size of face: about 4 inches in width and height",
-    "The shape and material of frame can be customized",
-    "The finished product is ready to hang on the wall to make adorable decors",
+    "Size of frame: about 6 inches in width and height.",
+    "The finished product is ready to hang on the wall to be special memories",
   ];
   const bodyFeature = [
     "Size about half a palm 🤲 incredibly cute",
