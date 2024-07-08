@@ -5,11 +5,10 @@ type Author = {
 };
 
 export type Blog = {
-  id: number;
+  id: string;
   title: string;
   paragraph: string;
   image: string;
-  author: Author;
   tags: string[];
   publishDate: string;
 };
