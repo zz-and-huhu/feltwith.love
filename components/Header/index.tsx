@@ -150,9 +150,8 @@ const Header = () => {
               </div>
               <div className="flex items-center justify-end pr-16 lg:pr-0">
                 <a
-                  href="#pricing"
+                  href="mailto:wendy@feltwith.love\"
                   className="hidden px-7 py-3 text-base font-bold text-dark hover:opacity-70 dark:text-white md:block"
-                
                 >
                   Order by Email
                 </a>
