@@ -40,7 +40,7 @@ const Pricing = () => {
   const menu = [
     {
       packageName: "Portrait Key-chain or Pin",
-      price: "160-200",
+      price: "260-300",
       img: {
         src: "/images/pricing/key-chain.jpg",
         alt: "felted key chain of your pet",
@@ -51,7 +51,7 @@ const Pricing = () => {
     },
     {
       packageName: "3D Framed Portrait",
-      price: "260-300",
+      price: "320-360",
       img: {
         src: "/images/pricing/frame.jpg",
         alt: "framed portrait of felted pet",
