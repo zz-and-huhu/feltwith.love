@@ -3,6 +3,7 @@ import {
   FacebookShareButton,
   LinkedinShareButton,
   TwitterShareButton,
+  InstapaperIcon,
 } from "react-share";
 import { ShareButtonProps } from "./Types";
 import {
