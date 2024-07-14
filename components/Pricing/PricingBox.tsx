@@ -20,8 +20,8 @@ const PricingBox = (props: {
             $<span className="amount">{price}</span>
           </h3>
         </div>
-        <div className="relative mb-4 aspect-[25/28] w-full   overflow-hidden rounded-md md:w-full lg:w-full">
-          <Image src={img.src} alt={img.alt} width={500} height={500} />
+        <div className="relative mb-4 aspect-[25/34] w-full overflow-hidden rounded-md md:w-full lg:w-full">
+          <Image src={img.src} alt={img.alt} fill />
         </div>
         <div>{children}</div>
       </div>

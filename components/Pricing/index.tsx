@@ -33,22 +33,22 @@ const Pricing = () => {
     "The finished product is ready to hang on the wall to be special memories",
   ];
   const bodyFeature = [
-    "Size about half a palm 🤲 incredibly cute",
-    "I can handle any posture of your fuzz baby, just send me pictures!",
+    "Size of face: about 2.5 inches",
+    "To make transportation safe and convenient, I will use an enamel cup. The inner diameter of the cup is 4 inches. If you would like to use your own cup, please let me know the size.",
   ];
 
   const menu = [
-    {
-      packageName: "Portrait Key-chain or Pin",
-      price: "260-300",
-      img: {
-        src: "/images/pricing/key-chain.jpg",
-        alt: "felted key chain of your pet",
-      },
-      children: keyChainFeature.map((v, index) => (
-        <OfferList key={index} text={v} status="active" />
-      )),
-    },
+    // {
+    //   packageName: "Portrait Key-chain or Pin",
+    //   price: "260-300",
+    //   img: {
+    //     src: "/images/pricing/key-chain.jpg",
+    //     alt: "felted key chain of your pet",
+    //   },
+    //   children: keyChainFeature.map((v, index) => (
+    //     <OfferList key={index} text={v} status="active" />
+    //   )),
+    // },
     {
       packageName: "3D Framed Portrait",
       price: "320-360",
@@ -60,17 +60,17 @@ const Pricing = () => {
         <OfferList key={index} text={v} status="active" />
       )),
     },
-    // {
-    //   packageName: "Full Body Sculpture",
-    //   price: "280",
-    //   img: {
-    //     src: "/images/pricing/full-body.jpg",
-    //     alt: "full-body sculpture of felted pet",
-    //   },
-    //   children: bodyFeature.map((v, index) => (
-    //     <OfferList key={index} text={v} status="active" />
-    //   )),
-    // },
+    {
+      packageName: "The Cup Cat",
+      price: "400-420",
+      img: {
+        src: "/images/pricing/cup-cat.jpg",
+        alt: "cup cat sculpture of felted pet",
+      },
+      children: bodyFeature.map((v, index) => (
+        <OfferList key={index} text={v} status="active" />
+      )),
+    },
   ];
 
   return (
