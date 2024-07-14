@@ -62,7 +62,7 @@ const Pricing = () => {
     },
     {
       packageName: "The Cup Cat",
-      price: "400-420",
+      price: "400-440",
       img: {
         src: "/images/pricing/cup-cat.jpg",
         alt: "cup cat sculpture of felted pet",
