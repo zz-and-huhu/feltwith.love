@@ -14,9 +14,9 @@ const PricingBox = (props: {
         className="wow fadeInUp relative z-10 h-full rounded-md bg-white px-8 py-10 shadow-signUp "
         data-wow-delay=".1s"
       >
-        <div className="flex items-center justify-between">
+        <div className="items-center justify-between md:flex">
           <h4 className="mb-2 text-xl font-bold text-dark">{packageName}</h4>
-          <h3 className="price mb-2 text-3xl font-bold text-black">
+          <h3 className="price mb-2 text-2xl font-bold text-black">
             $<span className="amount">{price}</span>
           </h3>
         </div>
