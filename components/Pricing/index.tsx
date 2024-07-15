@@ -87,7 +87,7 @@ const Pricing = () => {
           paragraph="100% customized, and please note if you have any special requirements"
         />
 
-        <div className="mb-20 grid grid-cols-1 gap-x-10 gap-y-10 px-20 md:grid-cols-1 lg:grid-cols-2">
+        <div className="mb-20 grid grid-cols-1 gap-x-10 gap-y-10 md:grid-cols-1 lg:grid-cols-2 lg:px-20">
           {menu.map((v) => (
             <PricingBox
               key={v.packageName}
