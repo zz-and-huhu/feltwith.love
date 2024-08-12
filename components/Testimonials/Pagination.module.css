@@ -1,0 +1,27 @@
+.pagination {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.pagination > li {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.pagination > :global(li.rc-pagination-item-active) {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+.pagination > :global(li.rc-pagination-item-active):hover {
+  background-color: rgba(0, 0, 0, 0.12);
+}
+
+.pagination > li:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
