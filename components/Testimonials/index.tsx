@@ -9,6 +9,14 @@ import { LeftArrowIcon, RightArrowIcon } from "@/public/icons/Index";
 
 const testimonialData: Testimonial[] = [
   {
+    id: "Kelly S.",
+    name: "Kelly S.",
+    content:
+      "Wendy literally brought my cat Grinder back to life, like he could walk right out of the frame at any moment 😍 It is so healing and comforting to be able to see his face like this and to be able to hold his paw again. I can't thank her enough for the love she poured into this piece! 💕",
+    image: "/images/testimonials/kelly-s.jpg",
+    star: 5,
+  },
+  {
     id: "Adam F.",
     name: "Adam F.",
     content:
