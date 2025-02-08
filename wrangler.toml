@@ -1,0 +1,7 @@
+name = "feltwithlove-api"
+main = "server/index.ts"
+compatibility_date = "2024-02-07"
+
+[[r2_buckets]]
+binding = "BUCKET"
+bucket_name = "feltwithlove-images" 

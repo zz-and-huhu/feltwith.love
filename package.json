@@ -5,14 +5,28 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "tsx server/index.ts",
+    "lint": "next lint",
+    "dev:server": "yarn tsx watch server/index.ts"
   },
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.741.0",
+    "@aws-sdk/s3-request-presigner": "^3.741.0",
+    "@hono/node-server": "^1.13.8",
     "@next/font": "13.1.6",
+    "@uppy/core": "^4.4.2",
+    "@uppy/dashboard": "^4.3.1",
+    "@uppy/drag-drop": "^4.1.1",
+    "@uppy/file-input": "^4.1.1",
+    "@uppy/progress-bar": "^4.2.1",
+    "@uppy/react": "^4.2.1",
+    "@uppy/tus": "^4.2.2",
+    "@uppy/xhr-upload": "^4.3.2",
     "clsx": "^2.1.1",
+    "dotenv": "^16.4.7",
     "eslint": "8.33.0",
     "eslint-config-next": "13.1.6",
+    "hono": "^4.6.20",
     "less": "^4.2.0",
     "less-loader": "^12.2.0",
     "next": "13.1.6",
@@ -32,6 +46,7 @@
     "prettier-plugin-tailwindcss": "^0.2.2",
     "react-share": "^4.4.0",
     "tailwindcss": "^3.3.3",
+    "tsx": "^4.19.2",
     "typescript": "^5.0.4"
   }
 }
