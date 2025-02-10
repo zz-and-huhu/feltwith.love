@@ -6,12 +6,13 @@ import { Dashboard } from "@uppy/react";
 import "@uppy/core/dist/style.css";
 import "@uppy/dashboard/dist/style.css";
 import Breadcrumb from "@/components/Common/Breadcrumb";
+import { PresignedUrlResponse, UploadedFile } from "@/types/api";
 
 const API_BASE_URL =
   process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:3001";
 
 const UploadPage = () => {
-  const [uploadedFiles, setUploadedFiles] = useState<any[]>([]);
+  const [uploadedFiles, setUploadedFiles] = useState<UploadedFile[]>([]);
 
   const uppy = new Uppy({
     restrictions: { maxNumberOfFiles: 10, minNumberOfFiles: 1 },
@@ -36,8 +37,14 @@ const UploadPage = () => {
           }),
         });
 
-        const { url, key } = await response.json();
-        console.log("Presigned URL:", url);
+        const res = (await response.json()) as PresignedUrlResponse;
+
+        if ("error" in res) {
+          throw new Error(res.error);
+        }
+
+        const { url, key } = res;
+        console.log("Presigned URL:", res);
 
         // 使用预签名 URL 上传文件
         const uploadResponse = await fetch(url, {
@@ -61,12 +68,18 @@ const UploadPage = () => {
         }
 
         // 保存文件信息
-        setUploadedFiles((prev) => [...prev, { id: key, name: file.name }]);
+        setUploadedFiles((prev) => [
+          ...prev,
+          {
+            id: key,
+            name: file.name,
+          },
+        ]);
 
         // 通知 Uppy 上传成功
         uppy.emit("upload-success", file, {
           status: 200,
-          body: { key },
+          body: { key } as any,
           uploadURL: url,
         });
       }

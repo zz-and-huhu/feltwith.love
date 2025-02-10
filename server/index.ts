@@ -7,6 +7,7 @@ import { cors } from "hono/cors";
 import { S3Client } from "@aws-sdk/client-s3";
 import { getSignedUrl } from "@aws-sdk/s3-request-presigner";
 import { PutObjectCommand, GetObjectCommand } from "@aws-sdk/client-s3";
+import { PresignedUrlResponse } from "./types/api";
 
 // 环境变量配置
 const BUCKET_NAME = "feltwithlove-images";
@@ -53,15 +54,16 @@ app.post("/api/upload-url", async (c) => {
 
   try {
     const url = await getSignedUrl(S3, command, { expiresIn: 3600 });
-    console.log("Generated presigned URL with credentials:", {
-      accessKeyId: process.env.R2_ACCESS_KEY_ID?.slice(0, 5) + "...",
-      bucket: BUCKET_NAME,
-      key: key,
-    });
-    return c.json({ url, key });
+    const response: PresignedUrlResponse = { url, key };
+    return c.json(response);
   } catch (error) {
     console.error("Error generating signed URL:", error);
-    return c.json({ error: "Failed to generate upload URL" }, 500);
+    const errorResponse: PresignedUrlResponse = { 
+      url: '', 
+      key: '', 
+      error: "Failed to generate upload URL" 
+    };
+    return c.json(errorResponse, 500);
   }
 });
 
