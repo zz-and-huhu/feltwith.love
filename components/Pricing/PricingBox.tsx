@@ -7,6 +7,7 @@ const PricingBox = (props: {
   children: React.ReactNode;
 }) => {
   const { price, packageName, img, children } = props;
+  const UNIT = " USD";
 
   return (
     <div className="w-full">
@@ -17,7 +18,11 @@ const PricingBox = (props: {
         <div className="items-center justify-between md:flex">
           <h4 className="mb-2 text-xl font-bold text-dark">{packageName}</h4>
           <h3 className="price mb-2 text-2xl font-bold text-black">
-            $<span className="amount">{price}</span>
+            $
+            <span className="amount">
+              {price}
+              {UNIT}
+            </span>
           </h3>
         </div>
         <div className="relative mb-4 aspect-[25/34] w-full overflow-hidden rounded-md md:w-full lg:w-full">
