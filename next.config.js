@@ -4,7 +4,7 @@ const nextConfig = {
     appDir: true,
   },
   images: {
-    domains: ['your-cloud-storage-domain.com'],
+    domains: ["your-cloud-storage-domain.com"],
   },
 };
 

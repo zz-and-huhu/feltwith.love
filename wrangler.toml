@@ -1,7 +1,16 @@
 name = "feltwithlove-api"
 main = "server/index.ts"
-compatibility_date = "2024-02-07"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+[env.production]
+workers_dev = true
 
 [[r2_buckets]]
 binding = "BUCKET"
-bucket_name = "feltwithlove-images" 
+bucket_name = "feltwithlove-images"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "feltwithlove-db"
+database_id = "40824b1c-1866-420a-976f-d3b7339ca3bb"
