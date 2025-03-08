@@ -2,7 +2,7 @@ import AboutMe from "@/components/About/AboutMe";
 import ScrollUp from "@/components/Common/ScrollUp";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
-import Pricing from "@/components/Pricing";
+import CustomOrderProductList from "@/components/CustomOrderProductList";
 import Testimonials from "@/components/Testimonials";
 import { Inter } from "@next/font/google";
 
@@ -13,7 +13,7 @@ export default function Home() {
     <>
       <ScrollUp />
       <Hero />
-      <Pricing />
+      <CustomOrderProductList />
       <Testimonials />
       <Features />
       <AboutMe />

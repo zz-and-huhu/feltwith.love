@@ -15,6 +15,8 @@ export default function RootLayout({
   return (
     <html suppressHydrationWarning lang="en">
       <head>
+        {/* stripe buy button. More info: https://docs.stripe.com/payment-links/buy-button?client=react */}
+        <script async src="https://js.stripe.com/v3/buy-button.js"></script>
         {/* Google Tag Manager code */}
         <script
           dangerouslySetInnerHTML={{

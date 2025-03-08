@@ -1,11 +1,11 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
-import Pricing from "@/components/Pricing";
+import CustomOrderProductList from "@/components/CustomOrderProductList";
 
 const PricingPage = () => {
   return (
     <>
       <Breadcrumb pageName="Pricing" />
-      <Pricing />
+      <CustomOrderProductList />
     </>
   );
 };
