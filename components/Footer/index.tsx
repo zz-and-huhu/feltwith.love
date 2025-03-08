@@ -68,7 +68,7 @@ const Footer = () => {
                         href="/pricing"
                         className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                       >
-                        Pricing
+                        Custom Order
                       </a>
                     </li>
                     <li>
