@@ -103,7 +103,6 @@ export class NotionClient {
     let featuredImage;
 
     for (const [name, prop] of Object.entries(page.properties)) {
-      console.log("prop---", prop);
       if (prop.type === "title") {
         title = getPlainFromRich(prop.title);
       }

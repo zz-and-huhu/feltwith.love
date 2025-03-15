@@ -7,7 +7,7 @@
       "page_id": "1b60d7c4-4475-8002-a574-c1e86078f8de"
     },
     "created_time": "2025-03-14T08:43:00.000Z",
-    "last_edited_time": "2025-03-14T08:45:00.000Z",
+    "last_edited_time": "2025-03-15T12:30:00.000Z",
     "created_by": {
       "object": "user",
       "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
@@ -45,13 +45,13 @@
   },
   {
     "object": "block",
-    "id": "1b60d7c4-4475-8081-999c-d066ed28832e",
+    "id": "1b70d7c4-4475-80c3-8d7e-d21540b5a2cd",
     "parent": {
       "type": "page_id",
       "page_id": "1b60d7c4-4475-8002-a574-c1e86078f8de"
     },
-    "created_time": "2025-03-14T08:45:00.000Z",
-    "last_edited_time": "2025-03-14T08:45:00.000Z",
+    "created_time": "2025-03-15T12:28:00.000Z",
+    "last_edited_time": "2025-03-15T12:30:00.000Z",
     "created_by": {
       "object": "user",
       "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
@@ -69,7 +69,7 @@
         {
           "type": "text",
           "text": {
-            "content": "Last year, I was starting my small business online — my hands shaky, my heart racing, my Facebook page barely more than a pixelated dream. I’d stay up late, poking wool into shapes, wondering if anyone would ever trust me with something as sacred as a pet’s memory.",
+            "content": "Last year, I took a leap and launched my needle felting business online. Starting from zero followers on Facebook, I faced the quiet struggle every new artist knows: How do I show up in a world that doesn’t know I exist? Most groups banned promotions, so I stuck to quietly sharing photos of my work, hoping to connect with people. Deep down, I knew how hard it must’ve been for anyone to entrust a stranger online with something as precious as memorializing a lost pet. I was still figuring out global shipping from Shanghai, my hands trembling with every new DM. But slowly, a few brave souls took a chance on me. ",
             "link": null
           },
           "annotations": {
@@ -80,7 +80,7 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "Last year, I was starting my small business online — my hands shaky, my heart racing, my Facebook page barely more than a pixelated dream. I’d stay up late, poking wool into shapes, wondering if anyone would ever trust me with something as sacred as a pet’s memory.",
+          "plain_text": "Last year, I took a leap and launched my needle felting business online. Starting from zero followers on Facebook, I faced the quiet struggle every new artist knows: How do I show up in a world that doesn’t know I exist? Most groups banned promotions, so I stuck to quietly sharing photos of my work, hoping to connect with people. Deep down, I knew how hard it must’ve been for anyone to entrust a stranger online with something as precious as memorializing a lost pet. I was still figuring out global shipping from Shanghai, my hands trembling with every new DM. But slowly, a few brave souls took a chance on me. ",
           "href": null
         }
       ],
@@ -89,13 +89,13 @@
   },
   {
     "object": "block",
-    "id": "1b60d7c4-4475-809a-a457-d68d8268b11e",
+    "id": "1b70d7c4-4475-8078-a20f-c9a281ed17f5",
     "parent": {
       "type": "page_id",
       "page_id": "1b60d7c4-4475-8002-a574-c1e86078f8de"
     },
-    "created_time": "2025-03-14T08:45:00.000Z",
-    "last_edited_time": "2025-03-14T08:45:00.000Z",
+    "created_time": "2025-03-15T12:28:00.000Z",
+    "last_edited_time": "2025-03-15T12:30:00.000Z",
     "created_by": {
       "object": "user",
       "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
@@ -113,7 +113,7 @@
         {
           "type": "text",
           "text": {
-            "content": "Then Britt found me.",
+            "content": "Then came Britt.",
             "link": null
           },
           "annotations": {
@@ -124,7 +124,7 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "Then Britt found me.",
+          "plain_text": "Then came Britt.",
           "href": null
         }
       ],
@@ -133,13 +133,13 @@
   },
   {
     "object": "block",
-    "id": "1b60d7c4-4475-807e-b5ff-fd56fed4a148",
+    "id": "1b70d7c4-4475-8085-a92f-e79290dc4701",
     "parent": {
       "type": "page_id",
       "page_id": "1b60d7c4-4475-8002-a574-c1e86078f8de"
     },
-    "created_time": "2025-03-14T08:45:00.000Z",
-    "last_edited_time": "2025-03-14T08:45:00.000Z",
+    "created_time": "2025-03-15T12:28:00.000Z",
+    "last_edited_time": "2025-03-15T12:32:00.000Z",
     "created_by": {
       "object": "user",
       "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
@@ -157,7 +157,7 @@
         {
           "type": "text",
           "text": {
-            "content": "She handed me the spirits of two beloved souls: ",
+            "content": "She asked me to capture the spirits of her two beloved cats, Maxie and Felix. ",
             "link": null
           },
           "annotations": {
@@ -168,9 +168,36 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "She handed me the spirits of two beloved souls: ",
+          "plain_text": "She asked me to capture the spirits of her two beloved cats, Maxie and Felix. ",
           "href": null
-        },
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "1b70d7c4-4475-80db-9e4b-c25b7f7ba882",
+    "parent": {
+      "type": "page_id",
+      "page_id": "1b60d7c4-4475-8002-a574-c1e86078f8de"
+    },
+    "created_time": "2025-03-15T12:33:00.000Z",
+    "last_edited_time": "2025-03-15T12:33:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "image",
+    "image": {
+      "caption": [
         {
           "type": "text",
           "text": {
@@ -178,7 +205,7 @@
             "link": null
           },
           "annotations": {
-            "bold": true,
+            "bold": false,
             "italic": false,
             "strikethrough": false,
             "underline": false,
@@ -187,11 +214,42 @@
           },
           "plain_text": "Maxie",
           "href": null
-        },
+        }
+      ],
+      "type": "file",
+      "file": {
+        "url": "images/1b60d7c4-4475-8002-a574-c1e86078f8de/3014x2716-1.jpg",
+        "expiry_time": "never"
+      }
+    }
+  },
+  {
+    "object": "block",
+    "id": "1b70d7c4-4475-808b-976b-ee9b6d441b87",
+    "parent": {
+      "type": "page_id",
+      "page_id": "1b60d7c4-4475-8002-a574-c1e86078f8de"
+    },
+    "created_time": "2025-03-15T12:32:00.000Z",
+    "last_edited_time": "2025-03-15T12:32:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
         {
           "type": "text",
           "text": {
-            "content": " and ",
+            "content": "When she mentioned she’d be visiting Shanghai the following year, it gave me lots of time—time to pour into every tuft of fur, every glint in their eyes. With each poke of the needle, I felt the weight of her trust. This wasn’t just about shaping wool; it was about weaving love into something you could hold.",
             "link": null
           },
           "annotations": {
@@ -202,9 +260,36 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": " and ",
+          "plain_text": "When she mentioned she’d be visiting Shanghai the following year, it gave me lots of time—time to pour into every tuft of fur, every glint in their eyes. With each poke of the needle, I felt the weight of her trust. This wasn’t just about shaping wool; it was about weaving love into something you could hold.",
           "href": null
-        },
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "1b70d7c4-4475-80f3-943d-c8298ff5fb55",
+    "parent": {
+      "type": "page_id",
+      "page_id": "1b60d7c4-4475-8002-a574-c1e86078f8de"
+    },
+    "created_time": "2025-03-15T12:32:00.000Z",
+    "last_edited_time": "2025-03-15T12:33:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "image",
+    "image": {
+      "caption": [
         {
           "type": "text",
           "text": {
@@ -212,7 +297,7 @@
             "link": null
           },
           "annotations": {
-            "bold": true,
+            "bold": false,
             "italic": false,
             "strikethrough": false,
             "underline": false,
@@ -221,71 +306,24 @@
           },
           "plain_text": "Felix",
           "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": ". No pressure, right? But with every poke of the needle, I felt the weight of her trust. It wasn’t just about capturing fur or whiskers; it was about bottling ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": ". No pressure, right? But with every poke of the needle, I felt the weight of her trust. It wasn’t just about capturing fur or whiskers; it was about bottling ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "love",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": true,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "love",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": " in wool form.",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": " in wool form.",
-          "href": null
         }
       ],
-      "color": "default"
+      "type": "file",
+      "file": {
+        "url": "images/1b60d7c4-4475-8002-a574-c1e86078f8de/2944x2382-2.jpg",
+        "expiry_time": "never"
+      }
     }
   },
   {
     "object": "block",
-    "id": "1b60d7c4-4475-8004-95ad-d05467f08f58",
+    "id": "1b70d7c4-4475-809d-a808-febe65b3da6c",
     "parent": {
       "type": "page_id",
       "page_id": "1b60d7c4-4475-8002-a574-c1e86078f8de"
     },
-    "created_time": "2025-03-14T08:45:00.000Z",
-    "last_edited_time": "2025-03-14T08:45:00.000Z",
+    "created_time": "2025-03-15T12:28:00.000Z",
+    "last_edited_time": "2025-03-15T12:30:00.000Z",
     "created_by": {
       "object": "user",
       "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
@@ -303,7 +341,7 @@
         {
           "type": "text",
           "text": {
-            "content": "This March, Britt flew all the way to Shanghai, and I finally handed her their portraits in person.\nHolding those pieces out to her... it hit me how magical this work is. Not just wool fiber, but love\nmade tangible.",
+            "content": "This March, Britt flew across oceans to meet me. As I handed her their portraits, my throat tightened. There they were: Maxie and Felix, alive in fiber form. In that moment, I realized this craft isn’t just about art—it’s about collapsing distance between hearts.",
             "link": null
           },
           "annotations": {
@@ -314,7 +352,7 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "This March, Britt flew all the way to Shanghai, and I finally handed her their portraits in person.\nHolding those pieces out to her... it hit me how magical this work is. Not just wool fiber, but love\nmade tangible.",
+          "plain_text": "This March, Britt flew across oceans to meet me. As I handed her their portraits, my throat tightened. There they were: Maxie and Felix, alive in fiber form. In that moment, I realized this craft isn’t just about art—it’s about collapsing distance between hearts.",
           "href": null
         }
       ],
@@ -323,13 +361,13 @@
   },
   {
     "object": "block",
-    "id": "1b60d7c4-4475-8038-a931-c7a6e1d2e584",
+    "id": "1b70d7c4-4475-8063-a543-deff2f17f29a",
     "parent": {
       "type": "page_id",
       "page_id": "1b60d7c4-4475-8002-a574-c1e86078f8de"
     },
-    "created_time": "2025-03-14T08:45:00.000Z",
-    "last_edited_time": "2025-03-14T08:45:00.000Z",
+    "created_time": "2025-03-15T12:28:00.000Z",
+    "last_edited_time": "2025-03-15T12:30:00.000Z",
     "created_by": {
       "object": "user",
       "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
@@ -347,7 +385,7 @@
         {
           "type": "text",
           "text": {
-            "content": "Thank you Britt, for believing in me before I even believed in myself. For trusting me with Maxie\nand Felix. For crossing oceans to turn this into more than just art-it's a connection I'll never\nforget!",
+            "content": "Thank you to my early customers for believing in me before I believed in myself, for trusting me with your precious babies, and for turning wool and wire into friendships I'll carry forever.",
             "link": null
           },
           "annotations": {
@@ -358,7 +396,7 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "Thank you Britt, for believing in me before I even believed in myself. For trusting me with Maxie\nand Felix. For crossing oceans to turn this into more than just art-it's a connection I'll never\nforget!",
+          "plain_text": "Thank you to my early customers for believing in me before I believed in myself, for trusting me with your precious babies, and for turning wool and wire into friendships I'll carry forever.",
           "href": null
         }
       ],
@@ -367,13 +405,13 @@
   },
   {
     "object": "block",
-    "id": "1b60d7c4-4475-80c9-a5e9-c9a40178399d",
+    "id": "1b70d7c4-4475-8038-a0e3-cf3b88c42084",
     "parent": {
       "type": "page_id",
       "page_id": "1b60d7c4-4475-8002-a574-c1e86078f8de"
     },
-    "created_time": "2025-03-14T08:45:00.000Z",
-    "last_edited_time": "2025-03-14T08:45:00.000Z",
+    "created_time": "2025-03-15T12:28:00.000Z",
+    "last_edited_time": "2025-03-15T12:30:00.000Z",
     "created_by": {
       "object": "user",
       "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
@@ -391,7 +429,7 @@
         {
           "type": "text",
           "text": {
-            "content": "I'll always believe that pets leave paw prints on our hearts... and ssometimes, they lead us to the\nmost unexpected, beautiful friendships.",
+            "content": "Pets leave paw prints on our hearts—but every now and then, those prints lead us to people who change our lives. This journey of wool and whiskers taught me that the greatest art isn’t what we make with our hands.",
             "link": null
           },
           "annotations": {
@@ -402,7 +440,7 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "I'll always believe that pets leave paw prints on our hearts... and ssometimes, they lead us to the\nmost unexpected, beautiful friendships.",
+          "plain_text": "Pets leave paw prints on our hearts—but every now and then, those prints lead us to people who change our lives. This journey of wool and whiskers taught me that the greatest art isn’t what we make with our hands.",
           "href": null
         }
       ],
@@ -411,13 +449,13 @@
   },
   {
     "object": "block",
-    "id": "1b60d7c4-4475-80e0-b252-d422a3d31a29",
+    "id": "1b70d7c4-4475-8044-82a3-f2c691adfb0f",
     "parent": {
       "type": "page_id",
       "page_id": "1b60d7c4-4475-8002-a574-c1e86078f8de"
     },
-    "created_time": "2025-03-14T08:45:00.000Z",
-    "last_edited_time": "2025-03-14T08:45:00.000Z",
+    "created_time": "2025-03-15T12:28:00.000Z",
+    "last_edited_time": "2025-03-15T12:30:00.000Z",
     "created_by": {
       "object": "user",
       "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
@@ -435,7 +473,7 @@
         {
           "type": "text",
           "text": {
-            "content": "Swipe to meet Maxie & Felix-forever alive in love.",
+            "content": "It’s the invisible threads we tie between souls.",
             "link": null
           },
           "annotations": {
@@ -446,10 +484,36 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "Swipe to meet Maxie & Felix-forever alive in love.",
+          "plain_text": "It’s the invisible threads we tie between souls.",
           "href": null
         }
       ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "1b70d7c4-4475-80e8-b091-dfd5aa7992e7",
+    "parent": {
+      "type": "page_id",
+      "page_id": "1b60d7c4-4475-8002-a574-c1e86078f8de"
+    },
+    "created_time": "2025-03-15T12:33:00.000Z",
+    "last_edited_time": "2025-03-15T12:33:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [],
       "color": "default"
     }
   }

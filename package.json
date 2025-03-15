@@ -31,7 +31,8 @@
     "react-modal-video": "^2.0.0",
     "react-share": "^5.1.0",
     "server-only": "^0.0.1",
-    "undici": "5.28.4"
+    "undici": "5.28.4",
+    "image-size": "^1.2.0"
   },
   "devDependencies": {
     "@types/katex": "0.11.0",
