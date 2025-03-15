@@ -1,91 +1,88 @@
-import SingleBlog from "@/components/Blog/SingleBlog";
-import blogData from "@/components/Blog/blogData";
+// app/blog/page.tsx
+import Link from "next/link";
+import { IS_DEV_MODE } from "@/app/lib/notion/server-constants";
+import notionCache from "@/app/lib/notion/cache";
+import { PostProp } from "@/app/lib/notion/utils";
+import { getBlogLink, getDateStr } from "@/app/lib/blog-helpers";
 import Breadcrumb from "@/components/Common/Breadcrumb";
+import Image from "@/components/Common/Image";
+import styles from "./BlogGrid.module.css";
 
-const Blog = () => {
+export const revalidate = 10;
+
+async function getData() {
+  const posts = await notionCache.listPostProps();
+  return { posts };
+}
+
+export default async function Page() {
+  const { posts } = await getData();
+
+  let filteredPosts = posts;
+  if (!IS_DEV_MODE) {
+    filteredPosts = posts.filter((p) => p.publish);
+  }
+
+  const sortedPosts = [...filteredPosts].sort(
+    (a, b) =>
+      new Date(b.created_time).getTime() - new Date(a.created_time).getTime()
+  );
+
   return (
     <>
       <Breadcrumb
-        pageName="Blog"
+        items={[
+          { name: "Home", href: "/" },
+          { name: "Blog", href: "/blog" },
+        ]}
         description="My attitude & experience. Some thoughts to share."
       />
 
-      <section className="pb-[120px] pt-[120px]">
+      <section>
         <div className="container">
-          <div className="-mx-4 flex flex-wrap justify-center">
-            {blogData.map((blog) => (
-              <div
-                key={blog.id}
-                className="w-full px-4 md:w-2/3 lg:w-1/2 xl:w-1/2"
-              >
-                <SingleBlog blog={blog} />
-              </div>
-            ))}
+          <div className={styles.specialGrid}>
+            {sortedPosts.length === 0 ? (
+              <p className="text-gray-600 col-span-full text-center">
+                There are no posts yet
+              </p>
+            ) : (
+              sortedPosts.map((post) => (
+                <PostCard key={post.slug} post={post} />
+              ))
+            )}
           </div>
-
-          {/* <div className="-mx-4 flex flex-wrap" data-wow-delay=".15s">
-            <div className="w-full px-4">
-              <ul className="flex items-center justify-center pt-8">
-                <li className="mx-1">
-                  <a
-                    href="#0"
-                    className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
-                  >
-                    Prev
-                  </a>
-                </li>
-                <li className="mx-1">
-                  <a
-                    href="#0"
-                    className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
-                  >
-                    1
-                  </a>
-                </li>
-                <li className="mx-1">
-                  <a
-                    href="#0"
-                    className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
-                  >
-                    2
-                  </a>
-                </li>
-                <li className="mx-1">
-                  <a
-                    href="#0"
-                    className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
-                  >
-                    3
-                  </a>
-                </li>
-                <li className="mx-1">
-                  <span className="flex h-9 min-w-[36px] cursor-not-allowed items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color">
-                    ...
-                  </span>
-                </li>
-                <li className="mx-1">
-                  <a
-                    href="#0"
-                    className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
-                  >
-                    12
-                  </a>
-                </li>
-                <li className="mx-1">
-                  <a
-                    href="#0"
-                    className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
-                  >
-                    Next
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div> */}
         </div>
       </section>
     </>
   );
-};
+}
 
-export default Blog;
+function PostCard({ post }: { post: PostProp }) {
+  return (
+    <div className={`${styles.contentItemBox} group relative`}>
+      <Link
+        href={getBlogLink(post.slug)}
+        className="hover:bg-gray-50 flex h-full flex-col transition-colors"
+      >
+        <div className="relative aspect-square w-full flex-1">
+          {post.featuredImage && (
+            <Image image={post.featuredImage} className="my-0" />
+          )}
+          {!post.publish && (
+            <div className="text-gray-600 absolute left-0 top-0 bg-white/95 px-4 py-2 text-xs font-medium">
+              Draft
+            </div>
+          )}
+        </div>
+
+        <div className="flex flex-col">
+          <div className="text-gray-500 mb-2 flex items-center gap-2 text-xs">
+            {post.created_time && <span>{getDateStr(post.created_time)}</span>}
+          </div>
+
+          <h2 className="text-gray-900 text-xl font-medium">{post.title}</h2>
+        </div>
+      </Link>
+    </div>
+  );
+}

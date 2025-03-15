@@ -4,7 +4,12 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 const AboutPage = () => {
   return (
     <>
-      <Breadcrumb pageName="About Me" />
+      <Breadcrumb
+        items={[
+          { name: "Home", href: "/" },
+          { name: "About Me", href: "/about" },
+        ]}
+      />
       <AboutMe />
     </>
   );
