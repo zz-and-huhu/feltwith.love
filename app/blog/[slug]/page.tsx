@@ -21,7 +21,8 @@ export async function generateMetadata({
 }: {
   params: { slug: string };
 }) {
-  const postProp = await notionCache.getPostPropBySlug(params.slug);
+  const { slug } = await params;
+  const postProp = await notionCache.getPostPropBySlug(slug);
   if (!postProp) return {};
 
   return {
@@ -44,7 +45,8 @@ export default async function BlogPage({
 }: {
   params: { slug: string };
 }) {
-  const postProp = await notionCache.getPostPropBySlug(params.slug);
+  const { slug } = await params;
+  const postProp = await notionCache.getPostPropBySlug(slug);
   if (!postProp) notFound();
 
   const post = aggregate(await notionCache.getPost(postProp));

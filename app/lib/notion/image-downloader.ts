@@ -55,35 +55,26 @@ export async function downloadImage(
   dir: string
 ) {
   const response = await fetchWithRetry(url);
+  console.log("--resp", response);
   if (response && response.ok) {
+    console.log("--response && response.ok", response && response.ok);
     // Read the response as an ArrayBuffer
     const arrayBuffer = await response.arrayBuffer();
     const buffer = Buffer.from(arrayBuffer);
-
     const byteArray = new Uint8Array(buffer);
-    console.log("--byteArray--", byteArray);
     // Get image dimensions
     const { width, height } = sizeOf(byteArray);
-    console.log("--widthheight--", width, height);
-
+    console.log("--width, height", width, height);
     // Generate the filename and save path
     const filename = `${width}x${height}-${imageIdx}.${getImageFileExtension(
       buffer
     )}`;
-    console.log("getImageFileExtension", getImageFileExtension(buffer));
-    console.log("--filename--", filename);
-
     const destDir = path.join(dir, "images", postId);
-    console.log("--destDir--", destDir);
     await fs.mkdir(destDir, { recursive: true });
-    console.log("--mkdir--");
     const savePath = path.join(destDir, filename);
 
     // Save the file
     await fs.writeFile(savePath, byteArray);
-    console.log("--writefile--");
-    console.log(`Image saved to ${savePath}`);
-
     return path.join("images", postId, filename);
   }
   return null;

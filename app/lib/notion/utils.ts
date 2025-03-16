@@ -206,7 +206,7 @@ export async function cacheImages(
             } catch (e) {
               console.log(
                 `Error downloading ${currentImage}th image from ${url}: ${e}`
-              );
+              ); //error here
             }
           }
         }

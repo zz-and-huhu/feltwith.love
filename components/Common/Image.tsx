@@ -6,7 +6,7 @@ import { getPlainFromRich, ImageProp } from "@/app/lib/notion/utils";
 
 // Reusable Image Container Component
 const ImageContainer = ({ children }: { children: React.ReactNode }) => (
-  <div className="relative w-full  overflow-hidden rounded-lg">{children}</div>
+  <div className="overflow_-hidden relative  w-full rounded-lg">{children}</div>
 );
 
 // Reusable Image Component (for both NextImage and standard img)
@@ -22,8 +22,11 @@ const ResponsiveImage = ({
   const match = src.match(/(\d+)x(\d+)-/);
   const [useFallback, setUseFallback] = useState(false);
 
-  const onError = () => {
-    console.error(`Failed to load image: ${src}, falling back to /api${src}`);
+  const onError = (e) => {
+    console.log(
+      `Failed to load image: ${src}, falling back to /api${src}. Error:`,
+      e
+    );
     setUseFallback(true);
   };
 
@@ -32,7 +35,7 @@ const ResponsiveImage = ({
     const height = parseInt(match[2], 10); // 提取高度
     return (
       <NextImage
-        src={useFallback ? `/api${src}` : src}
+        src={useFallback ? `/api${src}` : src} // some error here
         alt={alt}
         width={width}
         height={height}
@@ -65,7 +68,6 @@ export default function Image({
   const alt = image.caption ? getPlainFromRich(image.caption) : "";
 
   let imageElement: React.ReactNode;
-
   if (image.type === "file") {
     imageElement = (
       <ImageContainer>
