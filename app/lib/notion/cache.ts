@@ -90,7 +90,7 @@ export class NotionCache {
     );
 
     this.cache.last_updated_time = new Date().toISOString();
-    const limit = pLimit(5);
+    const limit = pLimit(2);
 
     const promises = updatedPages.map((page) =>
       limit(async () => {
