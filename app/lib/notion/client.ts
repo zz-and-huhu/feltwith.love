@@ -6,7 +6,7 @@ export class NotionClient {
   private client: Client;
 
   constructor(authToken: string) {
-    this.client = new Client({ auth: authToken });
+    this.client = new Client({ auth: authToken, timeoutMs: 1000 * 60 * 5 });
   }
 
   async getAllPages(databaseId: string) {
