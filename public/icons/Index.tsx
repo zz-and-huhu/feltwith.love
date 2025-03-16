@@ -1,3 +1,33 @@
+export const RiCalendarLine = (props: { className?: string }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="128"
+    height="128"
+    viewBox="0 0 24 24"
+    className={props.className}
+  >
+    <path
+      fill="currentColor"
+      d="M9 1v2h6V1h2v2h4a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h4V1zm11 10H4v8h16zM7 5H4v4h16V5h-3v2h-2V5H9v2H7z"
+    />
+  </svg>
+);
+
+export const RiAlertLine = (props: { className?: string }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="128"
+    height="128"
+    viewBox="0 0 24 24"
+    className={props.className}
+  >
+    <path
+      fill="currentColor"
+      d="m12.866 3l9.526 16.5a1 1 0 0 1-.866 1.5H2.474a1 1 0 0 1-.866-1.5L11.134 3a1 1 0 0 1 1.732 0m-8.66 16h15.588L12 5.5zM11 16h2v2h-2zm0-7h2v5h-2z"
+    />
+  </svg>
+);
+
 export const LeftArrowIcon = () => (
   <svg
     width="16"
@@ -7,8 +37,8 @@ export const LeftArrowIcon = () => (
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M10.9348 2.51684C11.2017 2.75699 11.2233 3.16798 10.9831 3.43481L6.87448 7.99998L10.9831 12.5652C11.2233 12.832 11.2017 13.243 10.9348 13.4831C10.668 13.7233 10.257 13.7016 10.0169 13.4348L5.51686 8.43481C5.29438 8.18761 5.29438 7.81235 5.51686 7.56515L10.0169 2.56515C10.257 2.29832 10.668 2.27669 10.9348 2.51684Z"
       fill="#1D2939"
     />
@@ -24,8 +54,8 @@ export const RightArrowIcon = () => (
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M5.56517 2.51684C5.29834 2.75699 5.27671 3.16798 5.51686 3.43481L9.62551 7.99998L5.51686 12.5652C5.27671 12.832 5.29834 13.243 5.56517 13.4831C5.832 13.7233 6.24299 13.7016 6.48314 13.4348L10.9831 8.43481C11.2056 8.18761 11.2056 7.81235 10.9831 7.56515L6.48314 2.56515C6.24299 2.29832 5.832 2.27669 5.56517 2.51684Z"
       fill="#1D2939"
     />

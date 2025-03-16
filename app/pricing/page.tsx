@@ -4,7 +4,12 @@ import CustomOrderProductList from "@/components/CustomOrderProductList";
 const PricingPage = () => {
   return (
     <>
-      <Breadcrumb pageName="Pricing" />
+      <Breadcrumb
+        items={[
+          { name: "Home", href: "/" },
+          { name: "Custom Order", href: "/pricing" },
+        ]}
+      />
       <CustomOrderProductList />
     </>
   );

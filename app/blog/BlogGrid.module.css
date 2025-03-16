@@ -1,0 +1,34 @@
+.specialGrid {
+  @apply grid grid-cols-1 lg:grid-cols-3;
+}
+
+@media (min-width: 992px) {
+  .specialGrid > div:nth-child(3n - 2) {
+    border-right: 1px solid #e6e6e6;
+  }
+
+  .specialGrid > div:nth-child(3n - 1) {
+    border-right: 1px solid #e6e6e6;
+  }
+
+  .specialGrid > div:nth-of-type(-n + 3) {
+    border-top: 1px solid #e6e6e6;
+  }
+}
+
+.contentItemBox {
+  @apply border-b border-[#e6e6e6];
+  padding: 20px 0;
+}
+
+@media (min-width: 768px) {
+  .contentItemBox {
+    padding: 5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .contentItemBox {
+    padding: 2rem;
+  }
+}
