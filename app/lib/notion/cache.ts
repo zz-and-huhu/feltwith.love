@@ -73,9 +73,6 @@ export class NotionCache {
       }
     }
 
-    //todo: i should fix the url of the feature image and save image before write file.
-    // but i dont know where to add
-
     await writeFile(
       this.blogIndexFile,
       JSON.stringify(this.cache, null, 2),
