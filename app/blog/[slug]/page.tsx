@@ -2,11 +2,10 @@
 import { notFound } from "next/navigation";
 import dynamic from "next/dynamic";
 import { getBlogLink, getDateStr } from "@/app/lib/blog-helpers";
-import { Block, PostProp, aggregate } from "@/app/lib/notion/utils";
+import { Block, aggregate } from "@/app/lib/notion/utils";
 import notionCache from "@/app/lib/notion/cache";
 import PostContent from "@/components/Common/PostContent";
-import { RiCalendarLine, RiAlertLine } from "@/public/icons/Index";
-import Link from "next/link";
+import { RiCalendarLine } from "@/public/icons/Index";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 
 // Generate static paths at build time

@@ -55,16 +55,13 @@ export async function downloadImage(
   dir: string
 ) {
   const response = await fetchWithRetry(url);
-  console.log("--resp", response);
   if (response && response.ok) {
-    console.log("--response && response.ok", response && response.ok);
     // Read the response as an ArrayBuffer
     const arrayBuffer = await response.arrayBuffer();
     const buffer = Buffer.from(arrayBuffer);
     const byteArray = new Uint8Array(buffer);
     // Get image dimensions
     const { width, height } = sizeOf(byteArray);
-    console.log("--width, height", width, height);
     // Generate the filename and save path
     const filename = `${width}x${height}-${imageIdx}.${getImageFileExtension(
       buffer
@@ -79,3 +76,4 @@ export async function downloadImage(
   }
   return null;
 }
+

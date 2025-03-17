@@ -115,7 +115,12 @@ export default function Block(props: { block: RenderBlock }) {
       );
     case "image":
       // eslint-disable-next-line jsx-a11y/alt-text
-      return <Image image={block.image} className="fx-8 my-6"></Image>;
+      return (
+        <Image
+          image={block.image}
+          className="fx-8 mx-auto my-6 w-full xs:w-1/2"
+        ></Image>
+      );
 
     case "divider":
       return <hr className="border-gray-200 my-8 border-t" />;
