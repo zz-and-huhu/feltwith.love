@@ -8,6 +8,7 @@ import {
   CACHE_DIRECTORY,
 } from "./server-constants";
 import pLimit from "p-limit";
+import { downloadImage } from "./image-downloader";
 
 interface CacheIndex {
   ordered_ids: string[];
@@ -50,6 +51,31 @@ export class NotionCache {
 
   private async persistIndex() {
     await mkdir(this.cacheDirectory, { recursive: true });
+    // Cache feature images and update their URLs
+    for (const postId of this.cache.ordered_ids) {
+      const prop = this.cache.prop_by_id[postId];
+      if (prop.featuredImage) {
+        try {
+          const localImageUrl = await downloadImage(
+            prop.featuredImage.file.url,
+            postId,
+            0, // imageIdx
+            this.cacheDirectory // Pass the root cache directory here
+          );
+          prop.featuredImage.file.url = localImageUrl;
+          prop.featuredImage.file.expiry_time = "never";
+        } catch (error) {
+          console.error(
+            `Failed to cache feature image for post ${postId}:`,
+            error
+          );
+        }
+      }
+    }
+
+    //todo: i should fix the url of the feature image and save image before write file.
+    // but i dont know where to add
+
     await writeFile(
       this.blogIndexFile,
       JSON.stringify(this.cache, null, 2),
