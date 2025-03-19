@@ -35,13 +35,11 @@ const ResponsiveImage = ({
     const height = parseInt(match[2], 10); // 提取高度
     return (
       <NextImage
-        src={useFallback ? `/api${src}` : src} // some error here
+        src={useFallback ? `/api${src}` : src}
         alt={alt}
         width={width}
         height={height}
         onError={onError}
-        layout="responsive"
-        objectFit="cover"
         className="transition-transform duration-300 hover:scale-105"
       />
     );

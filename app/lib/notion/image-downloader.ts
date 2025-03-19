@@ -42,7 +42,7 @@ async function fetchWithRetry(url: string, retry: number = 3) {
       const response = await fetch(url);
       return response;
     } catch (error) {
-      console.error(`Error fetching image: ${url}: ${error}`);
+      console.error(`❌ Error fetching image: ${url}: ${error}`);
       retry--;
     }
   }
@@ -54,6 +54,13 @@ export async function downloadImage(
   imageIdx: number,
   dir: string
 ) {
+  // 检测 URL 类型
+  if (!url.startsWith("http")) {
+    // 如果是相对路径，直接返回（无需重复下载）
+    console.log("Skipping already cached image:", url);
+    return url;
+  }
+
   const response = await fetchWithRetry(url);
   if (response && response.ok) {
     // Read the response as an ArrayBuffer
@@ -76,4 +83,3 @@ export async function downloadImage(
   }
   return null;
 }
-

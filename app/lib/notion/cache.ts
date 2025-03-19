@@ -62,8 +62,10 @@ export class NotionCache {
             0, // imageIdx
             this.cacheDirectory // Pass the root cache directory here
           );
-          prop.featuredImage.file.url = localImageUrl;
-          prop.featuredImage.file.expiry_time = "never";
+          if (localImageUrl) {
+            prop.featuredImage.file.url = localImageUrl;
+            prop.featuredImage.file.expiry_time = "never";
+          }
         } catch (error) {
           console.error(
             `Failed to cache feature image for post ${postId}:`,
