@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "pnpm refresh-cache && mkdir -p public/images && cp -r cache/images/* public/images && next build",
     "refresh-cache": "pnpm exec tsx scripts/refresh-cache.ts",
+    "format": "prettier --write \"**/*.{js,jsx,json,ts,tsx,md,mdx,css,html,yml,yaml,scss,sass}\" --ignore-path .gitignore",
     "start": "next start",
     "lint": "next lint"
   },

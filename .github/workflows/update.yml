@@ -1,8 +1,8 @@
 on:
   push:
     paths-ignore:
-      - 'cache/**'
-      - 'public/images/**'
+      - "cache/**"
+      - "public/images/**"
   schedule:
     - cron: 0 0 * * *
   workflow_dispatch:
