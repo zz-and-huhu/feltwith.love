@@ -3,6 +3,7 @@
 ## P0 - 功能性问题
 
 - [ ] **根布局去掉 `"use client"`**
+
   - `app/layout.tsx` 整个根布局是客户端组件，导致所有子页面失去 Server Components 优势
   - 将 Providers、GTM 脚本抽离为独立客户端组件，布局本身保持为 Server Component
   - 这也是 SEO metadata 无法正常 export 的根本原因
@@ -14,11 +15,13 @@
 ## P1 - SEO & 安全
 
 - [ ] **添加全站 SEO metadata**
+
   - 根布局添加默认 title / description / og:image
   - 博客文章补充 description、og:image（使用特色图片）
   - 首页、关于页等静态页面添加页面级 metadata
 
 - [ ] **图片 API 路径遍历校验**
+
   - `app/api/images/[postId]/[filename]/route.ts` 未校验路径参数
   - 验证解析后的路径在 `cache/images/` 目录内，移除 console.log
 
@@ -79,10 +82,12 @@
 ### 全局元素
 
 - [ ] **Header 导航优化**
+
   - 当前导航栏风格偏 SaaS，考虑更简洁/文艺的导航
   - Logo 区域可以加入手工元素
 
 - [ ] **Footer 重设计**
+
   - 加入品牌故事的温度感
   - 社交链接用更手工风的图标
 
@@ -93,6 +98,7 @@
 ## P2 - 性能
 
 - [ ] **图片优化**
+
   - Hero 图片加 `priority` 属性（LCP 元素）
   - 配置 `images.remotePatterns` 替代废弃的 `images.domains`
   - 外部图片统一使用 `next/image`

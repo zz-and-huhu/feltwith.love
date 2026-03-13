@@ -24,6 +24,7 @@ pnpm start            # Production server
 ## Architecture
 
 ### Stack
+
 - **Next.js 15** with App Router, React 18, TypeScript (strict: false)
 - **Tailwind CSS** with custom theme (primary brown #674D28, yellow #D7A567)
 - **Notion API** (`@notionhq/client`) as blog CMS
@@ -43,24 +44,29 @@ Notion Database → NotionClient (API) → NotionCache (10-min lazy refresh)
 Key files: `app/lib/notion/NotionClient.ts`, `app/lib/notion/NotionCache.ts`, `app/lib/notion/downloadImage.ts`
 
 ### Cache Index Structure (blog-index.json)
+
 - `ordered_ids`: post IDs sorted by created_time desc
 - `id_by_slug`: slug → Notion page ID
 - `prop_by_id`: post metadata (title, slug, tags, publish status, featured image, dates)
 - `last_updated_time`: used for incremental sync
 
 ### Image Caching
+
 Images are downloaded from Notion (which has expiring URLs) and cached locally. Served via `/api/images/[postId]/[filename]` with immutable cache headers. Magic-byte detection for format, dimensions encoded in filename.
 
 ### Key Routing
+
 - `/` — Home (Hero, Products, Testimonials, Features, About)
 - `/blog` — Listing (ISR revalidate=10s)
 - `/blog/[slug]` — Post detail with Cusdis comments
 - `/api/images/[postId]/[filename]` — Cached image serving
 
 ### Content Rendering
+
 `components/Common/PostContent` renders an array of Notion blocks. Individual block types handled by `components/Common/Block`. Rich text by `components/Common/Text`. KaTeX for math.
 
 ### Environment Behavior
+
 - Draft posts (publish=false) only visible when `NODE_ENV=development`
 - Cache refresh skips API calls if <10 minutes since last update
 - Incremental sync: only fetches pages modified since `last_updated_time`
