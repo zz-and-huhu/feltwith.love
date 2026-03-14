@@ -1,12 +1,46 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  /* Background & Surface */
+  --color-white: #FAF6F0;
+
+  /* Text */
+  --color-black: #3A3028;
+  --color-dark: #2A2118;
+  --color-body: #5D4E42;
+
+  /* Brand */
+  --color-primary: #7A5A30;
+  --color-accent: #D4A567;
+  --color-cta: #D4A567;
+  --color-rose: #C08B7A;
+
+  /* Brand (RGB for opacity support) */
+  --color-primary-rgb: 122, 90, 48;
+  --color-accent-rgb: 212, 165, 103;
+
+  /* Gray (warm-toned) */
+  --color-gray-50: #FAF8F5;
+  --color-gray-100: #F2EDE6;
+  --color-gray-200: #E5DDD3;
+  --color-gray-300: #D1C7BA;
+  --color-gray-400: #B5A898;
+  --color-gray-500: #968778;
+  --color-gray-600: #7A6C5E;
+  --color-gray-700: #5D4E42;
+  --color-gray-800: #3E3229;
+  --color-gray-900: #2A2118;
+}
+
 @layer base {
   body {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: var(--font-nunito), "Nunito", sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-lora), "Lora", serif;
   }
 }
 

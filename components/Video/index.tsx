@@ -30,7 +30,7 @@ const Video = () => {
                 <div className="absolute top-0 right-0 flex h-full w-full items-center justify-center">
                   <button
                     onClick={() => setOpen(true)}
-                    className="flex h-[70px] w-[70px] items-center justify-center rounded-full bg-white bg-opacity-75 text-primary transition hover:bg-opacity-100"
+                    className="flex h-[70px] w-[70px] items-center justify-center rounded-full text-primary transition" style={{ backgroundColor: "rgba(var(--color-primary-rgb), 0.15)" }}
                   >
                     <svg
                       width="16"

@@ -14,13 +14,27 @@ module.exports = {
     colors: {
       current: "currentColor",
       transparent: "transparent",
-      white: "#F9F7F4",
-      black: "#484354",
-      dark: "#1D2144",
-      primary: "#674D28",
-      yellow: "#D7A567",
+      white: "var(--color-white)",
+      black: "var(--color-black)",
+      dark: "var(--color-dark)",
+      primary: "var(--color-primary)",
+      yellow: "var(--color-accent)",
+      cta: "var(--color-cta)",
+      rose: "var(--color-rose)",
       orange: "#ea580c",
-      "body-color": "#1d2939",
+      "body-color": "var(--color-body)",
+      gray: {
+        50: "var(--color-gray-50)",
+        100: "var(--color-gray-100)",
+        200: "var(--color-gray-200)",
+        300: "var(--color-gray-300)",
+        400: "var(--color-gray-400)",
+        500: "var(--color-gray-500)",
+        600: "var(--color-gray-600)",
+        700: "var(--color-gray-700)",
+        800: "var(--color-gray-800)",
+        900: "var(--color-gray-900)",
+      },
     },
     screens: {
       xs: "450px",
@@ -42,6 +56,10 @@ module.exports = {
       // => @media (min-width: 1400px) { ... }
     },
     extend: {
+      fontFamily: {
+        serif: ["var(--font-lora)", "Lora", "serif"],
+        sans: ["var(--font-nunito)", "Nunito", "sans-serif"],
+      },
       boxShadow: {
         signUp: "0px 5px 10px rgba(4, 10, 34, 0.2)",
         one: "0px 2px 3px rgba(7, 7, 77, 0.05)",
