@@ -24,10 +24,11 @@ export async function generateMetadata({
   const postProp = await notionCache.getPostPropBySlug(slug);
   if (!postProp) return {};
 
-  const ogImage =
-    postProp.featuredImage?.file?.url
-      ? `/api/images/${postProp.id}/${postProp.featuredImage.file.url.split("/").pop()}`
-      : undefined;
+  const ogImage = postProp.featuredImage?.file?.url
+    ? `/api/images/${postProp.id}/${postProp.featuredImage.file.url
+        .split("/")
+        .pop()}`
+    : undefined;
 
   return {
     title: postProp.title,

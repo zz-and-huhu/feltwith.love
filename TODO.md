@@ -3,11 +3,13 @@
 ## P0 - 功能性问题
 
 - [x] **根布局去掉 `"use client"`** ✅
+
   - 已将 GTM/GA 脚本抽离到 `app/Analytics.tsx` 客户端组件
   - 布局改为 Server Component，metadata 通过 Next.js Metadata API 导出
   - 删除了旧的 `app/head.tsx`
 
 - [ ] **修复 Cusdis pageUrl 硬编码 localhost**
+
   - `app/blog/[slug]/page.tsx:105` — `pageUrl: "http://localhost:3000"` 需要替换为实际域名
   - 使用环境变量 `NEXT_PUBLIC_SITE_URL` 管理
 
@@ -17,21 +19,26 @@
 ## P1 - SEO & 安全
 
 - [x] **添加全站 SEO metadata** ✅
+
   - 根布局添加 metadataBase、title template、OpenGraph 默认值
   - 各页面（about、contact、pricing、blog、error）添加页面级 metadata
   - 博客文章补充 og:type=article 和 og:image（使用特色图片）
 
 - [x] **添加 sitemap.xml** ✅
+
   - `app/sitemap.ts` 动态生成，包含静态页面 + 已发布博客文章
   - 提交到 Google Search Console（待手动操作）
 
 - [x] **添加 robots.txt** ✅
+
   - `app/robots.ts` 生成，指向 sitemap，屏蔽 /api/ 和 /error/
 
 - [x] **修复首页多个 H1** ✅
+
   - 检查后发现首页只有 1 个 H1（Hero 组件），其余均为 H2，无需修改
 
 - [x] **图片 API 路径遍历校验** ✅
+
   - 添加 `path.resolve` + `startsWith` 校验，防止路径遍历
   - 移除 `console.log` 调试语句
 
