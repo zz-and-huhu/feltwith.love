@@ -8,23 +8,18 @@ export async function GET(
 ) {
   const { postId, filename } = await params;
 
-  console.log("--postId", postId, filename);
-
   // Validate parameters
   if (!postId || !filename) {
     return NextResponse.json({ error: "Invalid request" }, { status: 400 });
   }
 
-  // Construct the file path
-  const filePath = path.join(
-    process.cwd(),
-    "cache",
-    "images",
-    postId,
-    filename
-  );
+  // Construct and validate the file path to prevent path traversal
+  const imagesDir = path.resolve(process.cwd(), "cache", "images");
+  const filePath = path.resolve(imagesDir, postId, filename);
 
-  console.log("filePath", filePath);
+  if (!filePath.startsWith(imagesDir + path.sep)) {
+    return NextResponse.json({ error: "Invalid request" }, { status: 400 });
+  }
 
   try {
     // Check if the file exists
