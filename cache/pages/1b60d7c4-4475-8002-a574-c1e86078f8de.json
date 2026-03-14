@@ -17,7 +17,6 @@
       "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
     },
     "has_children": false,
-    "archived": false,
     "in_trash": false,
     "type": "paragraph",
     "paragraph": {
@@ -41,7 +40,8 @@
         }
       ],
       "color": "default"
-    }
+    },
+    "archived": false
   },
   {
     "object": "block",
@@ -61,7 +61,6 @@
       "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
     },
     "has_children": false,
-    "archived": false,
     "in_trash": false,
     "type": "paragraph",
     "paragraph": {
@@ -85,7 +84,8 @@
         }
       ],
       "color": "default"
-    }
+    },
+    "archived": false
   },
   {
     "object": "block",
@@ -105,7 +105,6 @@
       "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
     },
     "has_children": false,
-    "archived": false,
     "in_trash": false,
     "type": "paragraph",
     "paragraph": {
@@ -129,7 +128,8 @@
         }
       ],
       "color": "default"
-    }
+    },
+    "archived": false
   },
   {
     "object": "block",
@@ -149,7 +149,6 @@
       "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
     },
     "has_children": false,
-    "archived": false,
     "in_trash": false,
     "type": "paragraph",
     "paragraph": {
@@ -173,7 +172,8 @@
         }
       ],
       "color": "default"
-    }
+    },
+    "archived": false
   },
   {
     "object": "block",
@@ -193,7 +193,6 @@
       "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
     },
     "has_children": false,
-    "archived": false,
     "in_trash": false,
     "type": "image",
     "image": {
@@ -221,7 +220,8 @@
         "url": "images/1b60d7c4-4475-8002-a574-c1e86078f8de/3014x2716-1.jpg",
         "expiry_time": "never"
       }
-    }
+    },
+    "archived": false
   },
   {
     "object": "block",
@@ -241,7 +241,6 @@
       "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
     },
     "has_children": false,
-    "archived": false,
     "in_trash": false,
     "type": "paragraph",
     "paragraph": {
@@ -265,7 +264,8 @@
         }
       ],
       "color": "default"
-    }
+    },
+    "archived": false
   },
   {
     "object": "block",
@@ -285,7 +285,6 @@
       "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
     },
     "has_children": false,
-    "archived": false,
     "in_trash": false,
     "type": "image",
     "image": {
@@ -313,7 +312,8 @@
         "url": "images/1b60d7c4-4475-8002-a574-c1e86078f8de/2944x2382-2.jpg",
         "expiry_time": "never"
       }
-    }
+    },
+    "archived": false
   },
   {
     "object": "block",
@@ -333,7 +333,6 @@
       "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
     },
     "has_children": false,
-    "archived": false,
     "in_trash": false,
     "type": "paragraph",
     "paragraph": {
@@ -357,7 +356,8 @@
         }
       ],
       "color": "default"
-    }
+    },
+    "archived": false
   },
   {
     "object": "block",
@@ -377,7 +377,6 @@
       "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
     },
     "has_children": false,
-    "archived": false,
     "in_trash": false,
     "type": "paragraph",
     "paragraph": {
@@ -401,7 +400,8 @@
         }
       ],
       "color": "default"
-    }
+    },
+    "archived": false
   },
   {
     "object": "block",
@@ -421,7 +421,6 @@
       "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
     },
     "has_children": false,
-    "archived": false,
     "in_trash": false,
     "type": "paragraph",
     "paragraph": {
@@ -445,7 +444,8 @@
         }
       ],
       "color": "default"
-    }
+    },
+    "archived": false
   },
   {
     "object": "block",
@@ -465,7 +465,6 @@
       "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
     },
     "has_children": false,
-    "archived": false,
     "in_trash": false,
     "type": "paragraph",
     "paragraph": {
@@ -489,7 +488,8 @@
         }
       ],
       "color": "default"
-    }
+    },
+    "archived": false
   },
   {
     "object": "block",
@@ -509,12 +509,12 @@
       "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
     },
     "has_children": false,
-    "archived": false,
     "in_trash": false,
     "type": "paragraph",
     "paragraph": {
       "rich_text": [],
       "color": "default"
-    }
+    },
+    "archived": false
   }
 ]

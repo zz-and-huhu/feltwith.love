@@ -7,12 +7,27 @@ import Analytics from "./Analytics";
 import "node_modules/react-modal-video/css/modal-video.css";
 import "../styles/index.css";
 
+const siteUrl = "https://feltwith.love";
+
 export const metadata: Metadata = {
-  title: "Customized Needle Felted Pets to Honor Your Beloved Ones",
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: "Customized Needle Felted Pets to Honor Your Beloved Ones",
+    template: "%s | Felt With Love",
+  },
   description:
     "Needle felted custom wool animal portrait, key-chain or sculpture. 100% handmade. Best Choice of gifts or for memories.",
   icons: {
     icon: { url: "/images/favicon.svg", type: "image/svg+xml" },
+  },
+  openGraph: {
+    type: "website",
+    siteName: "Felt With Love",
+    locale: "en_US",
+    url: siteUrl,
+    title: "Customized Needle Felted Pets to Honor Your Beloved Ones",
+    description:
+      "Needle felted custom wool animal portrait, key-chain or sculpture. 100% handmade. Best Choice of gifts or for memories.",
   },
 };
 
@@ -23,10 +38,7 @@ export default function RootLayout({
 }) {
   return (
     <html suppressHydrationWarning lang="en">
-      <head>
-        {/* stripe buy button. More info: https://docs.stripe.com/payment-links/buy-button?client=react */}
-        <script async src="https://js.stripe.com/v3/buy-button.js"></script>
-      </head>
+      <head />
       <body>
         <Analytics />
         <Providers>

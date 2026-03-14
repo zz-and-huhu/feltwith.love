@@ -1,4 +1,5 @@
 // app/blog/page.tsx
+import { Metadata } from "next";
 import Link from "next/link";
 import { IS_DEV_MODE } from "@/app/lib/notion/server-constants";
 import notionCache from "@/app/lib/notion/cache";
@@ -7,6 +8,12 @@ import { getBlogLink, getDateStr } from "@/app/lib/blog-helpers";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import Image from "@/components/Common/Image";
 import styles from "./BlogGrid.module.css";
+
+export const metadata: Metadata = {
+  title: "Blog",
+  description:
+    "Stories, tips, and thoughts on needle felting — from pet memorials to craft techniques.",
+};
 
 export const revalidate = 10;
 

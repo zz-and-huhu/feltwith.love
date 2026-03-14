@@ -1,4 +1,5 @@
 "use client";
+import Script from "next/script";
 import SectionTitle from "../Common/SectionTitle";
 import OfferList from "./OfferList";
 import PricingBox from "./PricingBox";
@@ -190,6 +191,10 @@ const CustomOrderProductList = () => {
       id="pricing"
       className="relative z-10 bg-primary/[.03] py-16 md:py-20 lg:py-28"
     >
+      <Script
+        src="https://js.stripe.com/v3/buy-button.js"
+        strategy="lazyOnload"
+      />
       <div className="container">
         <SectionTitle
           title="Styles for choices 🛍️"
