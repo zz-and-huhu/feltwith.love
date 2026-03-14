@@ -50,7 +50,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html suppressHydrationWarning lang="en" className={`${lora.variable} ${nunito.variable}`}>
+    <html
+      suppressHydrationWarning
+      lang="en"
+      className={`${lora.variable} ${nunito.variable}`}
+    >
       <head />
       <body>
         <Analytics />

@@ -4,34 +4,34 @@
 
 :root {
   /* Background & Surface */
-  --color-white: #FAF6F0;
+  --color-white: #faf6f0;
 
   /* Text */
-  --color-black: #3A3028;
-  --color-dark: #2A2118;
-  --color-body: #5D4E42;
+  --color-black: #3a3028;
+  --color-dark: #2a2118;
+  --color-body: #5d4e42;
 
   /* Brand */
-  --color-primary: #7A5A30;
-  --color-accent: #D4A567;
-  --color-cta: #D4A567;
-  --color-rose: #C08B7A;
+  --color-primary: #7a5a30;
+  --color-accent: #d4a567;
+  --color-cta: #d4a567;
+  --color-rose: #c08b7a;
 
   /* Brand (RGB for opacity support) */
   --color-primary-rgb: 122, 90, 48;
   --color-accent-rgb: 212, 165, 103;
 
   /* Gray (warm-toned) */
-  --color-gray-50: #FAF8F5;
-  --color-gray-100: #F2EDE6;
-  --color-gray-200: #E5DDD3;
-  --color-gray-300: #D1C7BA;
-  --color-gray-400: #B5A898;
+  --color-gray-50: #faf8f5;
+  --color-gray-100: #f2ede6;
+  --color-gray-200: #e5ddd3;
+  --color-gray-300: #d1c7ba;
+  --color-gray-400: #b5a898;
   --color-gray-500: #968778;
-  --color-gray-600: #7A6C5E;
-  --color-gray-700: #5D4E42;
-  --color-gray-800: #3E3229;
-  --color-gray-900: #2A2118;
+  --color-gray-600: #7a6c5e;
+  --color-gray-700: #5d4e42;
+  --color-gray-800: #3e3229;
+  --color-gray-900: #2a2118;
 }
 
 @layer base {
@@ -39,7 +39,12 @@
     font-family: var(--font-nunito), "Nunito", sans-serif;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     font-family: var(--font-lora), "Lora", serif;
   }
 }
