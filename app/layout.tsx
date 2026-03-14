@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { Lora, Nunito } from "next/font/google";
 import { Providers } from "./providers";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
@@ -6,6 +7,18 @@ import ScrollToTop from "@/components/ScrollToTop";
 import Analytics from "./Analytics";
 import "node_modules/react-modal-video/css/modal-video.css";
 import "../styles/index.css";
+
+const lora = Lora({
+  subsets: ["latin"],
+  variable: "--font-lora",
+  display: "swap",
+});
+
+const nunito = Nunito({
+  subsets: ["latin"],
+  variable: "--font-nunito",
+  display: "swap",
+});
 
 const siteUrl = "https://feltwith.love";
 
@@ -37,7 +50,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html suppressHydrationWarning lang="en">
+    <html
+      suppressHydrationWarning
+      lang="en"
+      className={`${lora.variable} ${nunito.variable}`}
+    >
       <head />
       <body>
         <Analytics />
