@@ -30,9 +30,6 @@ export const metadata: Metadata = {
   },
   description:
     "Needle felted custom wool animal portrait, key-chain or sculpture. 100% handmade. Best Choice of gifts or for memories.",
-  icons: {
-    icon: { url: "/images/favicon.svg", type: "image/svg+xml" },
-  },
   openGraph: {
     type: "website",
     siteName: "Felt With Love",
