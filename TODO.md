@@ -131,16 +131,19 @@
 按 SEO 价值排序，优先写高购买意图的关键词文章：
 
 ### 高价值（直接带转化）
-- [ ] **"How to Order a Custom Needle Felted Pet Portrait"** — 核心转化页面，详细流程（提交照片→沟通→制作→交付）
+
+- [ ] **"How to Order a Custom Needle Felted Pet Portrait"** — 核心转化页面，详细流程（提交照片 → 沟通 → 制作 → 交付）
 - [ ] **"Needle Felted Pet Memorial: A Unique Way to Honor Your Beloved Pet"** — "pet memorial gift" 高搜索量，对应核心客户群
 - [ ] **"Can You Use Your Pet's Real Fur in Needle Felting?"** — 最常被问的问题，搜索量大
 
 ### 中高价值（教育型，吸引潜在客户）
+
 - [ ] **"What to Expect When Commissioning a Custom Felted Pet"** — 解答客户疑虑（照片要求、制作时间、价格）
 - [ ] **"Needle Felted Cat vs Dog: Which is Harder to Create?"** — 有天然搜索兴趣的话题
 - [ ] **"5 Best Photos to Send for Your Custom Pet Portrait"** — 实用指南，也减少沟通成本
 
 ### 长尾关键词（竞争小，精准流量）
+
 - [ ] **"Framed Needle Felted Pet Portrait: The Perfect Wall Art Gift"** — 对应具体产品
 - [ ] **"Why Needle Felted Gifts Are the Most Meaningful Handmade Present"** — 针对 "handmade gift ideas"
 - [ ] **"Behind the Scenes: How I Create a Needle Felted Cat From Scratch"** — 过程展示，建立信任

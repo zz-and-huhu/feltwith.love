@@ -24,7 +24,7 @@ const Gallery = () => {
       activeCategory === "all"
         ? galleryItems
         : galleryItems.filter((item) => item.category.includes(activeCategory)),
-    [activeCategory],
+    [activeCategory]
   );
 
   const lightboxSlides = filteredItems.map((item) => ({
