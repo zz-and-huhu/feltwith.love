@@ -45,6 +45,50 @@
   },
   {
     "object": "block",
+    "id": "3240d7c4-4475-80d0-996e-f0f15653f03c",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
+    },
+    "created_time": "2026-03-15T12:34:00.000Z",
+    "last_edited_time": "2026-03-15T12:34:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "How to Order?",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "How to Order?",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
     "id": "3230d7c4-4475-8109-9bd4-e316df09e055",
     "parent": {
       "type": "page_id",
@@ -96,7 +140,7 @@
       "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
     },
     "created_time": "2026-03-14T08:17:00.000Z",
-    "last_edited_time": "2026-03-14T15:19:00.000Z",
+    "last_edited_time": "2026-03-15T12:34:00.000Z",
     "created_by": {
       "object": "user",
       "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
@@ -113,7 +157,7 @@
         {
           "type": "text",
           "text": {
-            "content": "1. Send me Photos",
+            "content": "1. ",
             "link": null
           },
           "annotations": {
@@ -124,7 +168,281 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "1. Send me Photos",
+          "plain_text": "1. ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Just email me three things:",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Just email me three things:",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3240d7c4-4475-8013-b8c7-fb51e88aa4f9",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
+    },
+    "created_time": "2026-03-15T12:33:00.000Z",
+    "last_edited_time": "2026-03-15T12:33:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Photos of your pet",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Photos of your pet",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3240d7c4-4475-8098-b3c0-f32dc8be611f",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
+    },
+    "created_time": "2026-03-15T12:33:00.000Z",
+    "last_edited_time": "2026-03-15T12:33:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Their name",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Their name",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3240d7c4-4475-80c2-b1fb-c6d7c52fd566",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
+    },
+    "created_time": "2026-03-15T12:33:00.000Z",
+    "last_edited_time": "2026-03-15T12:33:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Your shipping address",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Your shipping address",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3240d7c4-4475-80c8-b3cd-c7937936feed",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
+    },
+    "created_time": "2026-03-15T12:32:00.000Z",
+    "last_edited_time": "2026-03-15T12:34:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Please email them to me at ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Please email them to me at ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "wendy@feltwith.love",
+            "link": {
+              "url": "mailto:wendy@feltwith.love"
+            }
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "wendy@feltwith.love",
+          "href": "mailto:wendy@feltwith.love"
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ". ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ". ",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3240d7c4-4475-8089-887c-e3b20021ab1d",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
+    },
+    "created_time": "2026-03-15T12:32:00.000Z",
+    "last_edited_time": "2026-03-15T12:32:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "2. Photo Requirements",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "2. Photo Requirements",
           "href": null
         }
       ],
@@ -141,7 +459,7 @@
       "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
     },
     "created_time": "2026-03-14T08:17:00.000Z",
-    "last_edited_time": "2026-03-14T15:23:00.000Z",
+    "last_edited_time": "2026-03-15T12:25:00.000Z",
     "created_by": {
       "object": "user",
       "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
@@ -158,7 +476,7 @@
         {
           "type": "text",
           "text": {
-            "content": "The photos/videos are the essence. They are the very raw materials i refer to.",
+            "content": "The photos/videos are the essence. They’re what I work from to capture your pet’s personality.",
             "link": null
           },
           "annotations": {
@@ -169,7 +487,7 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "The photos/videos are the essence. They are the very raw materials i refer to.",
+          "plain_text": "The photos/videos are the essence. They’re what I work from to capture your pet’s personality.",
           "href": null
         }
       ],
@@ -223,20 +541,20 @@
   },
   {
     "object": "block",
-    "id": "3230d7c4-4475-81e8-88c5-e407b6dfe53c",
+    "id": "3240d7c4-4475-8031-8ef0-ec56138daccb",
     "parent": {
       "type": "page_id",
       "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
     },
-    "created_time": "2026-03-14T08:17:00.000Z",
-    "last_edited_time": "2026-03-14T08:17:00.000Z",
+    "created_time": "2026-03-15T12:25:00.000Z",
+    "last_edited_time": "2026-03-15T12:25:00.000Z",
     "created_by": {
       "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
     },
     "last_edited_by": {
       "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
     },
     "has_children": false,
     "in_trash": false,
@@ -246,7 +564,7 @@
         {
           "type": "text",
           "text": {
-            "content": "Well-lit (natural light is best)",
+            "content": "Good lighting (natural light is ideal)",
             "link": null
           },
           "annotations": {
@@ -257,7 +575,7 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "Well-lit (natural light is best)",
+          "plain_text": "Good lighting (natural light is ideal)",
           "href": null
         }
       ],
@@ -267,20 +585,20 @@
   },
   {
     "object": "block",
-    "id": "3230d7c4-4475-817d-9908-f90fa43ce4a6",
+    "id": "3240d7c4-4475-8043-aa79-c48fdcb8bdcb",
     "parent": {
       "type": "page_id",
       "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
     },
-    "created_time": "2026-03-14T08:17:00.000Z",
-    "last_edited_time": "2026-03-14T08:17:00.000Z",
+    "created_time": "2026-03-15T12:25:00.000Z",
+    "last_edited_time": "2026-03-15T12:25:00.000Z",
     "created_by": {
       "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
     },
     "last_edited_by": {
       "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
     },
     "has_children": false,
     "in_trash": false,
@@ -290,7 +608,7 @@
         {
           "type": "text",
           "text": {
-            "content": "Showing your pet's face clearly from the front and side",
+            "content": "Clear shots of your pet’s face from the front and side",
             "link": null
           },
           "annotations": {
@@ -301,7 +619,7 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "Showing your pet's face clearly from the front and side",
+          "plain_text": "Clear shots of your pet’s face from the front and side",
           "href": null
         }
       ],
@@ -311,20 +629,20 @@
   },
   {
     "object": "block",
-    "id": "3230d7c4-4475-81a1-a08b-c65bd791cfb0",
+    "id": "3240d7c4-4475-807c-9ccf-c270271b8e95",
     "parent": {
       "type": "page_id",
       "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
     },
-    "created_time": "2026-03-14T08:17:00.000Z",
-    "last_edited_time": "2026-03-14T08:17:00.000Z",
+    "created_time": "2026-03-15T12:25:00.000Z",
+    "last_edited_time": "2026-03-15T12:25:00.000Z",
     "created_by": {
       "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
     },
     "last_edited_by": {
       "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
     },
     "has_children": false,
     "in_trash": false,
@@ -334,7 +652,7 @@
         {
           "type": "text",
           "text": {
-            "content": "Highlighting any unique markings, patterns, or features",
+            "content": "Close-ups of any distinctive markings or features",
             "link": null
           },
           "annotations": {
@@ -345,7 +663,7 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "Highlighting any unique markings, patterns, or features",
+          "plain_text": "Close-ups of any distinctive markings or features",
           "href": null
         }
       ],
@@ -355,20 +673,20 @@
   },
   {
     "object": "block",
-    "id": "3230d7c4-4475-813e-8e36-d105f99ca5ec",
+    "id": "3240d7c4-4475-8097-b2df-f620c2e3d807",
     "parent": {
       "type": "page_id",
       "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
     },
-    "created_time": "2026-03-14T08:17:00.000Z",
-    "last_edited_time": "2026-03-14T08:17:00.000Z",
+    "created_time": "2026-03-15T12:25:00.000Z",
+    "last_edited_time": "2026-03-15T12:25:00.000Z",
     "created_by": {
       "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
     },
     "last_edited_by": {
       "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
     },
     "has_children": false,
     "in_trash": false,
@@ -378,7 +696,7 @@
         {
           "type": "text",
           "text": {
-            "content": "In focus and not too far away",
+            "content": "In-focus images where your pet isn’t too far away",
             "link": null
           },
           "annotations": {
@@ -389,7 +707,51 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "In focus and not too far away",
+          "plain_text": "In-focus images where your pet isn’t too far away",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3240d7c4-4475-803f-b43e-e8b1d81365af",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
+    },
+    "created_time": "2026-03-15T12:27:00.000Z",
+    "last_edited_time": "2026-03-15T12:27:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Please avoid heavy filters",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Please avoid heavy filters",
           "href": null
         }
       ],
@@ -405,129 +767,7 @@
       "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
     },
     "created_time": "2026-03-14T15:22:00.000Z",
-    "last_edited_time": "2026-03-14T15:23:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
-    },
-    "has_children": false,
-    "in_trash": false,
-    "type": "paragraph",
-    "paragraph": {
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "You can start by sending to my email: wendy@feltwith.love.",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "You can start by sending to my email: wendy@feltwith.love.",
-          "href": null
-        }
-      ],
-      "color": "default"
-    },
-    "archived": false
-  },
-  {
-    "object": "block",
-    "id": "3230d7c4-4475-8068-99be-e86d8382ce63",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
-    },
-    "created_time": "2026-03-14T15:20:00.000Z",
-    "last_edited_time": "2026-03-14T15:24:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
-    },
-    "has_children": false,
-    "in_trash": false,
-    "type": "paragraph",
-    "paragraph": {
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "You can send me as many photos",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "You can send me as many photos",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": " ",
-            "link": null
-          },
-          "annotations": {
-            "bold": true,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": " ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "as you want of your pet . Google album links may be easier.",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "as you want of your pet . Google album links may be easier.",
-          "href": null
-        }
-      ],
-      "color": "default"
-    },
-    "archived": false
-  },
-  {
-    "object": "block",
-    "id": "3230d7c4-4475-8064-a9a2-f05c95a85e56",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
-    },
-    "created_time": "2026-03-14T15:24:00.000Z",
-    "last_edited_time": "2026-03-14T15:24:00.000Z",
+    "last_edited_time": "2026-03-15T12:34:00.000Z",
     "created_by": {
       "object": "user",
       "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
@@ -547,30 +787,30 @@
   },
   {
     "object": "block",
-    "id": "3230d7c4-4475-81bd-85e7-d9cec99b4477",
+    "id": "3240d7c4-4475-8054-bc46-e4f6e199ce86",
     "parent": {
       "type": "page_id",
       "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
     },
-    "created_time": "2026-03-14T08:17:00.000Z",
-    "last_edited_time": "2026-03-14T08:17:00.000Z",
+    "created_time": "2026-03-15T12:26:00.000Z",
+    "last_edited_time": "2026-03-15T12:26:00.000Z",
     "created_by": {
       "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
     },
     "last_edited_by": {
       "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
     },
     "has_children": false,
     "in_trash": false,
-    "type": "callout",
-    "callout": {
+    "type": "paragraph",
+    "paragraph": {
       "rich_text": [
         {
           "type": "text",
           "text": {
-            "content": "Tip: Photos taken at your pet's eye level work best! Avoid heavy filters or edited images.",
+            "content": "Send as many as you’d like—Google Photos albums work great too if that’s easier.",
             "link": null
           },
           "annotations": {
@@ -581,15 +821,85 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "Tip: Photos taken at your pet's eye level work best! Avoid heavy filters or edited images.",
+          "plain_text": "Send as many as you’d like—Google Photos albums work great too if that’s easier.",
           "href": null
         }
       ],
-      "icon": {
-        "type": "emoji",
-        "emoji": "📸"
-      },
       "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3240d7c4-4475-803a-bfd1-c5ccc97aa40f",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
+    },
+    "created_time": "2026-03-15T12:25:00.000Z",
+    "last_edited_time": "2026-03-15T12:25:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3240d7c4-4475-8020-ae40-f04b79a2861c",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
+    },
+    "created_time": "2026-03-15T06:50:00.000Z",
+    "last_edited_time": "2026-03-15T12:27:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "image",
+    "image": {
+      "caption": [
+        {
+          "type": "text",
+          "text": {
+            "content": "good lighting and many angles!",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "good lighting and many angles!",
+          "href": null
+        }
+      ],
+      "type": "file",
+      "file": {
+        "url": "images/3230d7c4-4475-816e-a7d9-d8392fc716cb/4000x1511-1.webp",
+        "expiry_time": "never"
+      }
     },
     "archived": false
   },
@@ -601,14 +911,14 @@
       "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
     },
     "created_time": "2026-03-14T08:17:00.000Z",
-    "last_edited_time": "2026-03-14T08:17:00.000Z",
+    "last_edited_time": "2026-03-15T12:33:00.000Z",
     "created_by": {
       "object": "user",
       "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
     },
     "last_edited_by": {
       "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
     },
     "has_children": false,
     "in_trash": false,
@@ -618,7 +928,7 @@
         {
           "type": "text",
           "text": {
-            "content": "2. Consultation & Confirmation",
+            "content": "3. Consultation & Confirmation",
             "link": null
           },
           "annotations": {
@@ -629,7 +939,7 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "2. Consultation & Confirmation",
+          "plain_text": "3. Consultation & Confirmation",
           "href": null
         }
       ],
@@ -640,20 +950,20 @@
   },
   {
     "object": "block",
-    "id": "3230d7c4-4475-81f7-8956-e62755f7f028",
+    "id": "3240d7c4-4475-804c-895d-db87c8ed81a6",
     "parent": {
       "type": "page_id",
       "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
     },
-    "created_time": "2026-03-14T08:17:00.000Z",
-    "last_edited_time": "2026-03-14T08:17:00.000Z",
+    "created_time": "2026-03-15T12:38:00.000Z",
+    "last_edited_time": "2026-03-15T12:38:00.000Z",
     "created_by": {
       "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
     },
     "last_edited_by": {
       "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
     },
     "has_children": false,
     "in_trash": false,
@@ -663,7 +973,7 @@
         {
           "type": "text",
           "text": {
-            "content": "Once I receive your photos, I'll review them and reach out to discuss:",
+            "content": "Once I get your photos, I'll review them and follow up to discuss:",
             "link": null
           },
           "annotations": {
@@ -674,7 +984,7 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "Once I receive your photos, I'll review them and reach out to discuss:",
+          "plain_text": "Once I get your photos, I'll review them and follow up to discuss:",
           "href": null
         }
       ],
@@ -684,20 +994,20 @@
   },
   {
     "object": "block",
-    "id": "3230d7c4-4475-8192-9e17-e07ca897f749",
+    "id": "3240d7c4-4475-8006-8d95-c9ed76040c0d",
     "parent": {
       "type": "page_id",
       "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
     },
-    "created_time": "2026-03-14T08:17:00.000Z",
-    "last_edited_time": "2026-03-14T08:17:00.000Z",
+    "created_time": "2026-03-15T12:38:00.000Z",
+    "last_edited_time": "2026-03-15T12:38:00.000Z",
     "created_by": {
       "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
     },
     "last_edited_by": {
       "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
     },
     "has_children": false,
     "in_trash": false,
@@ -707,7 +1017,7 @@
         {
           "type": "text",
           "text": {
-            "content": "The size and style of portrait you'd like",
+            "content": "Any specific requests you have in mind (frame color, background, accessories)",
             "link": null
           },
           "annotations": {
@@ -718,7 +1028,7 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "The size and style of portrait you'd like",
+          "plain_text": "Any specific requests you have in mind (frame color, background, accessories)",
           "href": null
         }
       ],
@@ -728,20 +1038,20 @@
   },
   {
     "object": "block",
-    "id": "3230d7c4-4475-8115-88b9-f763a7b2665b",
+    "id": "3240d7c4-4475-8031-aad6-e5076db038ca",
     "parent": {
       "type": "page_id",
       "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
     },
-    "created_time": "2026-03-14T08:17:00.000Z",
-    "last_edited_time": "2026-03-14T08:17:00.000Z",
+    "created_time": "2026-03-15T12:38:00.000Z",
+    "last_edited_time": "2026-03-15T12:43:00.000Z",
     "created_by": {
       "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
     },
     "last_edited_by": {
       "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
     },
     "has_children": false,
     "in_trash": false,
@@ -751,112 +1061,7 @@
         {
           "type": "text",
           "text": {
-            "content": "Any special requests (pose, expression, accessories)",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Any special requests (pose, expression, accessories)",
-          "href": null
-        }
-      ],
-      "color": "default"
-    },
-    "archived": false
-  },
-  {
-    "object": "block",
-    "id": "3230d7c4-4475-81b7-80ac-e3d32cf1eaba",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
-    },
-    "created_time": "2026-03-14T08:17:00.000Z",
-    "last_edited_time": "2026-03-14T08:17:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
-    },
-    "has_children": false,
-    "in_trash": false,
-    "type": "bulleted_list_item",
-    "bulleted_list_item": {
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Pricing and timeline based on complexity",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Pricing and timeline based on complexity",
-          "href": null
-        }
-      ],
-      "color": "default"
-    },
-    "archived": false
-  },
-  {
-    "object": "block",
-    "id": "3230d7c4-4475-8156-af66-dd30a6f328b1",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
-    },
-    "created_time": "2026-03-14T08:17:00.000Z",
-    "last_edited_time": "2026-03-14T08:17:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
-    },
-    "has_children": false,
-    "in_trash": false,
-    "type": "paragraph",
-    "paragraph": {
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Check the ",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Check the ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "pricing page",
+            "content": "Pricing and timeline",
             "link": null
           },
           "annotations": {
@@ -867,13 +1072,13 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "pricing page",
+          "plain_text": "Pricing and timeline",
           "href": null
         },
         {
           "type": "text",
           "text": {
-            "content": " for general pricing guidelines. Final pricing is confirmed after consultation.",
+            "content": " based on the complexity",
             "link": null
           },
           "annotations": {
@@ -884,7 +1089,131 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": " for general pricing guidelines. Final pricing is confirmed after consultation.",
+          "plain_text": " based on the complexity",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3240d7c4-4475-8017-8c6e-d95af9f4cff2",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
+    },
+    "created_time": "2026-03-15T12:38:00.000Z",
+    "last_edited_time": "2026-03-15T12:39:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Take a peek at the ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Take a peek at the ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "pricing page",
+            "link": {
+              "url": "https://feltwith.love/#pricing"
+            }
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "pricing page",
+          "href": "https://feltwith.love/#pricing"
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " for baseline rates. Most customers just pay directly through the website. Shipping fee is already included.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " for baseline rates. Most customers just pay directly through the website. Shipping fee is already included.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3240d7c4-4475-8086-a0ce-ecb0bdb6dddb",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
+    },
+    "created_time": "2026-03-15T12:38:00.000Z",
+    "last_edited_time": "2026-03-15T12:38:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "If you need something custom (like a larger portrait size, for example), I’ll send you a Stripe payment link via email instead. We’ll lock in the final price once we’ve chatted through the details.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "If you need something custom (like a larger portrait size, for example), I’ll send you a Stripe payment link via email instead. We’ll lock in the final price once we’ve chatted through the details.",
           "href": null
         }
       ],
@@ -900,14 +1229,14 @@
       "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
     },
     "created_time": "2026-03-14T08:17:00.000Z",
-    "last_edited_time": "2026-03-14T08:17:00.000Z",
+    "last_edited_time": "2026-03-15T12:39:00.000Z",
     "created_by": {
       "object": "user",
       "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
     },
     "last_edited_by": {
       "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
     },
     "has_children": false,
     "in_trash": false,
@@ -917,7 +1246,7 @@
         {
           "type": "text",
           "text": {
-            "content": "3. Creation Process",
+            "content": "4. Creation Process",
             "link": null
           },
           "annotations": {
@@ -928,7 +1257,7 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "3. Creation Process",
+          "plain_text": "4. Creation Process",
           "href": null
         }
       ],
@@ -945,7 +1274,7 @@
       "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
     },
     "created_time": "2026-03-14T08:17:00.000Z",
-    "last_edited_time": "2026-03-14T14:26:00.000Z",
+    "last_edited_time": "2026-03-15T12:42:00.000Z",
     "created_by": {
       "object": "user",
       "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
@@ -962,7 +1291,7 @@
         {
           "type": "text",
           "text": {
-            "content": "This is where the magic happens! Each portrait is ",
+            "content": "Here's where your pet comes to life in wool. I work entirely by hand, building up layers of fiber with needle felting to sculpt every detail—capturing that spark in their eyes and the unique tilt of their ears. Each piece is made slowly from start to finish with no shortcuts.",
             "link": null
           },
           "annotations": {
@@ -973,41 +1302,7 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "This is where the magic happens! Each portrait is ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "100% handmade",
-            "link": null
-          },
-          "annotations": {
-            "bold": true,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "100% handmade",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": " using the needle felting technique. I carefully build up layers of wool fiber, sculpting and shaping your pet's features by hand.",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": " using the needle felting technique. I carefully build up layers of wool fiber, sculpting and shaping your pet's features by hand.",
+          "plain_text": "Here's where your pet comes to life in wool. I work entirely by hand, building up layers of fiber with needle felting to sculpt every detail—capturing that spark in their eyes and the unique tilt of their ears. Each piece is made slowly from start to finish with no shortcuts.",
           "href": null
         }
       ],
@@ -1017,30 +1312,30 @@
   },
   {
     "object": "block",
-    "id": "3230d7c4-4475-81b7-957e-fdab83e09001",
+    "id": "3240d7c4-4475-80b9-9bb9-e7957aa57180",
     "parent": {
       "type": "page_id",
       "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
     },
-    "created_time": "2026-03-14T08:17:00.000Z",
-    "last_edited_time": "2026-03-14T08:17:00.000Z",
+    "created_time": "2026-03-15T12:57:00.000Z",
+    "last_edited_time": "2026-03-15T13:34:00.000Z",
     "created_by": {
       "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
     },
     "last_edited_by": {
       "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
     },
     "has_children": false,
     "in_trash": false,
-    "type": "paragraph",
-    "paragraph": {
-      "rich_text": [
+    "type": "image",
+    "image": {
+      "caption": [
         {
           "type": "text",
           "text": {
-            "content": "During the process, I'll send you ",
+            "content": "Creation Process",
             "link": null
           },
           "annotations": {
@@ -1051,64 +1346,34 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "During the process, I'll send you ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "progress photos",
-            "link": null
-          },
-          "annotations": {
-            "bold": true,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "progress photos",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": " so you can see your pet coming to life. If any adjustments are needed, this is the time to let me know!",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": " so you can see your pet coming to life. If any adjustments are needed, this is the time to let me know!",
+          "plain_text": "Creation Process",
           "href": null
         }
       ],
-      "color": "default"
+      "type": "file",
+      "file": {
+        "url": "images/3230d7c4-4475-816e-a7d9-d8392fc716cb/697x657-2.png",
+        "expiry_time": "never"
+      }
     },
     "archived": false
   },
   {
     "object": "block",
-    "id": "3230d7c4-4475-8190-90ac-e73e2e59e81d",
+    "id": "3240d7c4-4475-806e-a1e4-cb75b80913b2",
     "parent": {
       "type": "page_id",
       "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
     },
-    "created_time": "2026-03-14T08:17:00.000Z",
-    "last_edited_time": "2026-03-14T08:17:00.000Z",
+    "created_time": "2026-03-15T12:42:00.000Z",
+    "last_edited_time": "2026-03-15T12:42:00.000Z",
     "created_by": {
       "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
     },
     "last_edited_by": {
       "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
     },
     "has_children": false,
     "in_trash": false,
@@ -1118,18 +1383,18 @@
         {
           "type": "text",
           "text": {
-            "content": "4. Review & Delivery",
+            "content": "5. Review & Delivery",
             "link": null
           },
           "annotations": {
-            "bold": false,
+            "bold": true,
             "italic": false,
             "strikethrough": false,
             "underline": false,
             "code": false,
             "color": "default"
           },
-          "plain_text": "4. Review & Delivery",
+          "plain_text": "5. Review & Delivery",
           "href": null
         }
       ],
@@ -1140,20 +1405,20 @@
   },
   {
     "object": "block",
-    "id": "3230d7c4-4475-814f-b31c-dc7c1e601654",
+    "id": "3240d7c4-4475-806c-aa01-c37092078a41",
     "parent": {
       "type": "page_id",
       "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
     },
-    "created_time": "2026-03-14T08:17:00.000Z",
-    "last_edited_time": "2026-03-14T08:17:00.000Z",
+    "created_time": "2026-03-15T12:42:00.000Z",
+    "last_edited_time": "2026-03-15T12:42:00.000Z",
     "created_by": {
       "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
     },
     "last_edited_by": {
       "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
     },
     "has_children": false,
     "in_trash": false,
@@ -1163,7 +1428,7 @@
         {
           "type": "text",
           "text": {
-            "content": "Once the portrait is complete, I'll send you final photos for approval. After you give the thumbs up, I'll carefully package your piece and ship it to you. Each portrait is packaged with care to ensure it arrives safely.",
+            "content": "Once your portrait is ready, I'll send you photos to look over. If anything needs a small tweak, just say the word. After you give me the thumbs up, I'll carefully package your piece and ship it out, making sure it arrives at your door safe and sound.",
             "link": null
           },
           "annotations": {
@@ -1174,7 +1439,7 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "Once the portrait is complete, I'll send you final photos for approval. After you give the thumbs up, I'll carefully package your piece and ship it to you. Each portrait is packaged with care to ensure it arrives safely.",
+          "plain_text": "Once your portrait is ready, I'll send you photos to look over. If anything needs a small tweak, just say the word. After you give me the thumbs up, I'll carefully package your piece and ship it out, making sure it arrives at your door safe and sound.",
           "href": null
         }
       ],
@@ -1184,30 +1449,30 @@
   },
   {
     "object": "block",
-    "id": "3230d7c4-4475-8182-9568-c497b09ae60b",
+    "id": "3240d7c4-4475-80df-a65b-d58b1a615758",
     "parent": {
       "type": "page_id",
       "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
     },
-    "created_time": "2026-03-14T08:17:00.000Z",
-    "last_edited_time": "2026-03-14T08:17:00.000Z",
+    "created_time": "2026-03-15T12:42:00.000Z",
+    "last_edited_time": "2026-03-15T13:36:00.000Z",
     "created_by": {
       "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
     },
     "last_edited_by": {
       "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
     },
     "has_children": false,
     "in_trash": false,
-    "type": "heading_2",
-    "heading_2": {
-      "rich_text": [
+    "type": "image",
+    "image": {
+      "caption": [
         {
           "type": "text",
           "text": {
-            "content": "How Long Does It Take?",
+            "content": "Packaging",
             "link": null
           },
           "annotations": {
@@ -1218,283 +1483,15 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "How Long Does It Take?",
+          "plain_text": "Packaging",
           "href": null
         }
       ],
-      "is_toggleable": false,
-      "color": "default"
-    },
-    "archived": false
-  },
-  {
-    "object": "block",
-    "id": "3230d7c4-4475-8124-9c0b-e58990063e69",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
-    },
-    "created_time": "2026-03-14T08:17:00.000Z",
-    "last_edited_time": "2026-03-14T08:17:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
-    },
-    "has_children": false,
-    "in_trash": false,
-    "type": "paragraph",
-    "paragraph": {
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Every portrait is a labor of love. Typical turnaround times:",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Every portrait is a labor of love. Typical turnaround times:",
-          "href": null
-        }
-      ],
-      "color": "default"
-    },
-    "archived": false
-  },
-  {
-    "object": "block",
-    "id": "3230d7c4-4475-81a9-9b3c-c62ab722c8a8",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
-    },
-    "created_time": "2026-03-14T08:17:00.000Z",
-    "last_edited_time": "2026-03-14T08:17:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
-    },
-    "has_children": false,
-    "in_trash": false,
-    "type": "bulleted_list_item",
-    "bulleted_list_item": {
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Small portrait: ",
-            "link": null
-          },
-          "annotations": {
-            "bold": true,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Small portrait: ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "1–2 weeks",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "1–2 weeks",
-          "href": null
-        }
-      ],
-      "color": "default"
-    },
-    "archived": false
-  },
-  {
-    "object": "block",
-    "id": "3230d7c4-4475-81c9-8b19-e01ff3bfcd0b",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
-    },
-    "created_time": "2026-03-14T08:17:00.000Z",
-    "last_edited_time": "2026-03-14T08:17:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
-    },
-    "has_children": false,
-    "in_trash": false,
-    "type": "bulleted_list_item",
-    "bulleted_list_item": {
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Medium portrait: ",
-            "link": null
-          },
-          "annotations": {
-            "bold": true,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Medium portrait: ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "2–3 weeks",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "2–3 weeks",
-          "href": null
-        }
-      ],
-      "color": "default"
-    },
-    "archived": false
-  },
-  {
-    "object": "block",
-    "id": "3230d7c4-4475-811d-aa44-e6b8359c46ee",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
-    },
-    "created_time": "2026-03-14T08:17:00.000Z",
-    "last_edited_time": "2026-03-14T08:17:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
-    },
-    "has_children": false,
-    "in_trash": false,
-    "type": "bulleted_list_item",
-    "bulleted_list_item": {
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Large or complex pieces: ",
-            "link": null
-          },
-          "annotations": {
-            "bold": true,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Large or complex pieces: ",
-          "href": null
-        },
-        {
-          "type": "text",
-          "text": {
-            "content": "3–5 weeks",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "3–5 weeks",
-          "href": null
-        }
-      ],
-      "color": "default"
-    },
-    "archived": false
-  },
-  {
-    "object": "block",
-    "id": "3230d7c4-4475-812c-b873-d743e8676d11",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
-    },
-    "created_time": "2026-03-14T08:17:00.000Z",
-    "last_edited_time": "2026-03-14T08:17:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
-    },
-    "has_children": false,
-    "in_trash": false,
-    "type": "paragraph",
-    "paragraph": {
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Rush orders may be available — just ask!",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Rush orders may be available — just ask!",
-          "href": null
-        }
-      ],
-      "color": "default"
+      "type": "file",
+      "file": {
+        "url": "images/3230d7c4-4475-816e-a7d9-d8392fc716cb/768x1024-3.jpg",
+        "expiry_time": "never"
+      }
     },
     "archived": false
   },
@@ -1539,95 +1536,6 @@
         }
       ],
       "is_toggleable": false,
-      "color": "default"
-    },
-    "archived": false
-  },
-  {
-    "object": "block",
-    "id": "3230d7c4-4475-81ec-a584-c0ec4a27314b",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
-    },
-    "created_time": "2026-03-14T08:17:00.000Z",
-    "last_edited_time": "2026-03-14T08:17:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
-    },
-    "has_children": false,
-    "in_trash": false,
-    "type": "heading_3",
-    "heading_3": {
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Can you make a portrait of a pet who has passed away?",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Can you make a portrait of a pet who has passed away?",
-          "href": null
-        }
-      ],
-      "is_toggleable": false,
-      "color": "default"
-    },
-    "archived": false
-  },
-  {
-    "object": "block",
-    "id": "3230d7c4-4475-81f6-8486-ce0b66890678",
-    "parent": {
-      "type": "page_id",
-      "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
-    },
-    "created_time": "2026-03-14T08:17:00.000Z",
-    "last_edited_time": "2026-03-14T08:17:00.000Z",
-    "created_by": {
-      "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
-    },
-    "last_edited_by": {
-      "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
-    },
-    "has_children": false,
-    "in_trash": false,
-    "type": "paragraph",
-    "paragraph": {
-      "rich_text": [
-        {
-          "type": "text",
-          "text": {
-            "content": "Absolutely. Many of my commissions are memorial portraits. I treat each one with special care and attention. Just send me your best photos and any details you'd like me to capture.",
-            "link": null
-          },
-          "annotations": {
-            "bold": false,
-            "italic": false,
-            "strikethrough": false,
-            "underline": false,
-            "code": false,
-            "color": "default"
-          },
-          "plain_text": "Absolutely. Many of my commissions are memorial portraits. I treat each one with special care and attention. Just send me your best photos and any details you'd like me to capture.",
-          "href": null
-        }
-      ],
       "color": "default"
     },
     "archived": false
@@ -1685,14 +1593,14 @@
       "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
     },
     "created_time": "2026-03-14T08:17:00.000Z",
-    "last_edited_time": "2026-03-14T08:17:00.000Z",
+    "last_edited_time": "2026-03-15T12:52:00.000Z",
     "created_by": {
       "object": "user",
       "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
     },
     "last_edited_by": {
       "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
     },
     "has_children": false,
     "in_trash": false,
@@ -1702,7 +1610,7 @@
         {
           "type": "text",
           "text": {
-            "content": "Dogs, cats, rabbits, birds, hamsters — you name it! I've worked with all kinds of beloved pets. If you're unsure, just reach out and ask.",
+            "content": "Right now I specialize in cats and dogs of all breeds.",
             "link": null
           },
           "annotations": {
@@ -1713,7 +1621,7 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "Dogs, cats, rabbits, birds, hamsters — you name it! I've worked with all kinds of beloved pets. If you're unsure, just reach out and ask.",
+          "plain_text": "Right now I specialize in cats and dogs of all breeds.",
           "href": null
         }
       ],
@@ -1774,14 +1682,14 @@
       "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
     },
     "created_time": "2026-03-14T08:17:00.000Z",
-    "last_edited_time": "2026-03-14T08:17:00.000Z",
+    "last_edited_time": "2026-03-15T12:44:00.000Z",
     "created_by": {
       "object": "user",
       "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
     },
     "last_edited_by": {
       "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
     },
     "has_children": false,
     "in_trash": false,
@@ -1791,7 +1699,7 @@
         {
           "type": "text",
           "text": {
-            "content": "Yes! I ship worldwide. Shipping costs vary by destination and will be confirmed during consultation.",
+            "content": "Yes! I ship worldwide.",
             "link": null
           },
           "annotations": {
@@ -1802,7 +1710,7 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "Yes! I ship worldwide. Shipping costs vary by destination and will be confirmed during consultation.",
+          "plain_text": "Yes! I ship worldwide.",
           "href": null
         }
       ],
@@ -1863,14 +1771,14 @@
       "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
     },
     "created_time": "2026-03-14T08:17:00.000Z",
-    "last_edited_time": "2026-03-14T08:17:00.000Z",
+    "last_edited_time": "2026-03-15T12:51:00.000Z",
     "created_by": {
       "object": "user",
       "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
     },
     "last_edited_by": {
       "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
     },
     "has_children": false,
     "in_trash": false,
@@ -1880,7 +1788,7 @@
         {
           "type": "text",
           "text": {
-            "content": "Your satisfaction is my priority. I send progress photos throughout the process so we can make adjustments along the way. Minor revisions after completion are included.",
+            "content": "I always send photos for customers’ approval before I finish, so there's still time to adjust. I provide unlimited revisions until you love it. So far, every customer has been thrilled with the result.",
             "link": null
           },
           "annotations": {
@@ -1891,10 +1799,36 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "Your satisfaction is my priority. I send progress photos throughout the process so we can make adjustments along the way. Minor revisions after completion are included.",
+          "plain_text": "I always send photos for customers’ approval before I finish, so there's still time to adjust. I provide unlimited revisions until you love it. So far, every customer has been thrilled with the result.",
           "href": null
         }
       ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3240d7c4-4475-80b7-a385-de52e8a126e2",
+    "parent": {
+      "type": "page_id",
+      "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
+    },
+    "created_time": "2026-03-15T12:44:00.000Z",
+    "last_edited_time": "2026-03-15T12:44:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [],
       "color": "default"
     },
     "archived": false
@@ -1975,14 +1909,14 @@
       "page_id": "3230d7c4-4475-816e-a7d9-d8392fc716cb"
     },
     "created_time": "2026-03-14T08:17:00.000Z",
-    "last_edited_time": "2026-03-14T08:17:00.000Z",
+    "last_edited_time": "2026-03-15T12:50:00.000Z",
     "created_by": {
       "object": "user",
       "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
     },
     "last_edited_by": {
       "object": "user",
-      "id": "374aef18-b58c-44b1-83b8-dfed7eb92484"
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
     },
     "has_children": false,
     "in_trash": false,
@@ -1992,7 +1926,7 @@
         {
           "type": "text",
           "text": {
-            "content": "I'd love to create a one-of-a-kind portrait of your pet. Send me your photos and let's bring your furry friend to life in wool! Reach out through the contact form or send me a message on Instagram.",
+            "content": "I'd love to create a one-of-a-kind portrait of your pet. Send me your photos and let's bring your furry friend to life in wool!",
             "link": null
           },
           "annotations": {
@@ -2003,7 +1937,7 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "I'd love to create a one-of-a-kind portrait of your pet. Send me your photos and let's bring your furry friend to life in wool! Reach out through the contact form or send me a message on Instagram.",
+          "plain_text": "I'd love to create a one-of-a-kind portrait of your pet. Send me your photos and let's bring your furry friend to life in wool!",
           "href": null
         }
       ],

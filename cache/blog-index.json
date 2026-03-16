@@ -51,12 +51,20 @@
       "title": "How to Order a Custom Needle Felted Pet Portrait",
       "slug": "how-to-order-custom-needle-felted-pet-portrait",
       "created_time": "2026-03-14T08:17:00.000Z",
-      "last_edited_time": "2026-03-14T15:24:00.000Z",
+      "last_edited_time": "2026-03-15T13:36:00.000Z",
       "url": "https://www.notion.so/How-to-Order-a-Custom-Needle-Felted-Pet-Portrait-3230d7c44475816ea7d9d8392fc716cb",
       "tags": ["Guide", "Custom Order"],
-      "publish": false
+      "publish": true,
+      "featuredImage": {
+        "name": "C6075A49-C6D3-4D36-99A3-78B2A2497F9C_1_105_c.jpeg",
+        "type": "file",
+        "file": {
+          "url": "images/3230d7c4-4475-816e-a7d9-d8392fc716cb/1086x724-0.jpg",
+          "expiry_time": "never"
+        }
+      }
     }
   },
-  "last_updated_time": "2026-03-15T01:54:09.891Z",
-  "last_update_takes": 1067
+  "last_updated_time": "2026-03-16T01:56:01.813Z",
+  "last_update_takes": 2199
 }
