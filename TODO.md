@@ -2,7 +2,6 @@
 
 ## P0 - 功能性问题
 
-
 - [ ] **升级 Next.js 到最新版本**
   - Vercel 构建因安全漏洞被拒绝，已本地升级到 15.5.12，待提交推送
 
@@ -77,6 +76,7 @@ Based on a full-site SEO audit of feltwith.love.
 ### High Impact
 
 - [ ] **全站缺少 Schema 结构化数据**
+
   - 首页：添加 `Organization` + `Product` schema
   - Pricing：添加 `Product` + `Offer` schema
   - About：添加 `Person` schema
@@ -89,6 +89,7 @@ Based on a full-site SEO audit of feltwith.love.
 ### Long-Term Growth
 
 - [ ] **增加博客内容频率**
+
   - 当前仅 2 篇文章，建议每月 1-2 篇
   - 推荐选题：
     - "needle felted pet portrait review"
@@ -98,6 +99,7 @@ Based on a full-site SEO audit of feltwith.love.
     - "how needle felting works"
 
 - [ ] **创建对比页面**
+
   - "Needle Felting vs Painted Pet Portraits" 等对比内容，针对高购买意向关键词
 
 - [ ] **利用 testimonials 添加 Review schema**

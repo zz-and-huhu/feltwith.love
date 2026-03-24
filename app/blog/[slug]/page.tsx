@@ -7,7 +7,6 @@ import PostContent from "@/components/Common/PostContent";
 import { RiCalendarLine } from "@/public/icons/Index";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 
-
 // Generate static paths at build time
 export async function generateStaticParams() {
   const props = await notionCache.listPostProps();
@@ -17,11 +16,7 @@ export async function generateStaticParams() {
 // Extract plain text from the first paragraph block for meta description
 function extractDescription(blocks: Block[]): string | undefined {
   for (const block of blocks) {
-    if (
-      "type" in block &&
-      block.type === "paragraph" &&
-      "paragraph" in block
-    ) {
+    if ("type" in block && block.type === "paragraph" && "paragraph" in block) {
       const richText = (block as any).paragraph.rich_text;
       if (Array.isArray(richText) && richText.length > 0) {
         const text = richText.map((t: any) => t.plain_text || "").join("");
