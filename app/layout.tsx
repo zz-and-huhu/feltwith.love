@@ -33,6 +33,9 @@ export const metadata: Metadata = {
   icons: {
     icon: { url: "/images/favicon.svg", type: "image/svg+xml" },
   },
+  alternates: {
+    canonical: siteUrl,
+  },
   openGraph: {
     type: "website",
     siteName: "Felt With Love",
@@ -41,6 +44,21 @@ export const metadata: Metadata = {
     title: "Customized Needle Felted Pets to Honor Your Beloved Ones",
     description:
       "Needle felted custom wool animal portrait, key-chain or sculpture. 100% handmade. Best Choice of gifts or for memories.",
+    images: [
+      {
+        url: "/images/hero/heroCat.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Customized needle felted pet portrait by Felt With Love",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Customized Needle Felted Pets to Honor Your Beloved Ones",
+    description:
+      "Needle felted custom wool animal portrait, key-chain or sculpture. 100% handmade. Best Choice of gifts or for memories.",
+    images: ["/images/hero/heroCat.jpg"],
   },
 };
 

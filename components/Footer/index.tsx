@@ -20,14 +20,14 @@ const Footer = () => {
                 <Link href="/" className="mb-8 inline-block">
                   <Image
                     src="/images/logo/logo-2.svg"
-                    alt="logo"
+                    alt="Felt With Love — custom needle felted pet portraits"
                     className="w-full dark:hidden"
                     width={10}
                     height={10}
                   />
                   <Image
                     src="/images/logo/logo.svg"
-                    alt="logo"
+                    alt="Felt With Love — custom needle felted pet portraits"
                     className="hidden w-full dark:block"
                     width={10}
                     height={10}

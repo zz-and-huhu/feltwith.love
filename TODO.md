@@ -2,71 +2,15 @@
 
 ## P0 - 功能性问题
 
-- [x] **根布局去掉 `"use client"`** ✅
-
-  - 已将 GTM/GA 脚本抽离到 `app/Analytics.tsx` 客户端组件
-  - 布局改为 Server Component，metadata 通过 Next.js Metadata API 导出
-  - 删除了旧的 `app/head.tsx`
-
-- [ ] **修复 Cusdis pageUrl 硬编码 localhost**
-
-  - `app/blog/[slug]/page.tsx:105` — `pageUrl: "http://localhost:3000"` 需要替换为实际域名
-  - 使用环境变量 `NEXT_PUBLIC_SITE_URL` 管理
 
 - [ ] **升级 Next.js 到最新版本**
   - Vercel 构建因安全漏洞被拒绝，已本地升级到 15.5.12，待提交推送
 
 ## P1 - SEO & 安全
 
-- [x] **添加全站 SEO metadata** ✅
-
-  - 根布局添加 metadataBase、title template、OpenGraph 默认值
-  - 各页面（about、contact、pricing、blog、error）添加页面级 metadata
-  - 博客文章补充 og:type=article 和 og:image（使用特色图片）
-
-- [x] **添加 sitemap.xml** ✅
-
-  - `app/sitemap.ts` 动态生成，包含静态页面 + 已发布博客文章
-  - 提交到 Google Search Console（待手动操作）
-
-- [x] **添加 robots.txt** ✅
-
-  - `app/robots.ts` 生成，指向 sitemap，屏蔽 /api/ 和 /error/
-
-- [x] **修复首页多个 H1** ✅
-
-  - 检查后发现首页只有 1 个 H1（Hero 组件），其余均为 H2，无需修改
-
-- [x] **图片 API 路径遍历校验** ✅
-
-  - 添加 `path.resolve` + `startsWith` 校验，防止路径遍历
-  - 移除 `console.log` 调试语句
-
-- [x] **Stripe / GTM / GA 脚本按需加载** ✅
-  - Stripe JS 从根布局移到 `CustomOrderProductList` 组件，使用 `lazyOnload` 策略
-  - 移除独立 GA 脚本（应通过 GTM 管理），只保留 GTM
-
 ## P2 - UI 视觉重新设计
 
 整体方向：围绕 needle felting（羊毛毡）主题，打造**复古、温暖、手工感**的视觉风格。
-
-### 色彩体系
-
-- [x] **重新定义调色板** ✅
-  - 全面转向暖棕色系，所有颜色通过 CSS 变量管理（`:root` in `styles/index.css`）
-  - 背景：`#FAF6F0` 暖奶油白 | 文字：`#3A3028` 暖炭棕 | 正文：`#5D4E42` 温暖棕灰
-  - 品牌：`#7A5A30` 焦糖棕 | 点缀：`#D4A567` 蜂蜜金 | CTA 统一用金色
-  - 新增暖灰色阶（gray-50 ~ gray-900），修复博客 gray 类不生效问题
-  - 去掉 `orange`，CTA 用 `primary`（深棕+白字）
-  - 修复所有 `bg-opacity` 与 CSS 变量不兼容的问题
-
-### 字体
-
-- [x] **更换字体，体现手工/复古气质** ✅
-  - 标题 h1-h6：Lora（优雅衬线体）via `next/font/google`
-  - 正文：Nunito（圆润无衬线体）via `next/font/google`
-  - 移除未使用的 Inter Google Fonts 外链
-  - Tailwind `font-sans` / `font-serif` 可按需切换
 
 ### 首页 Hero
 
@@ -125,6 +69,41 @@
 - [ ] **简化图片服务架构**
   - 构建时图片已复制到 `public/images/`，考虑去掉 API route 中间层
   - 减少运行时文件系统读取
+
+## P1.5 - SEO Audit Findings (2026-03-24)
+
+Based on a full-site SEO audit of feltwith.love.
+
+### High Impact
+
+- [ ] **全站缺少 Schema 结构化数据**
+  - 首页：添加 `Organization` + `Product` schema
+  - Pricing：添加 `Product` + `Offer` schema
+  - About：添加 `Person` schema
+  - Blog 文章：添加 `Article` + `FAQPage` schema（"How to Order" 有 FAQ 区域可获得富摘要）
+  - Gallery：添加 `ImageGallery` schema
+
+- [ ] **Gallery 页面未加入 sitemap.xml**
+  - `/gallery` 页面尚未创建，sitemap 中已预留注释，待页面创建后取消注释
+
+
+
+### Long-Term Growth
+
+- [ ] **增加博客内容频率**
+  - 当前仅 2 篇文章，建议每月 1-2 篇
+  - 推荐选题：
+    - "needle felted pet portrait review"
+    - "custom pet memorial gift ideas"
+    - "needle felting vs other pet portraits"
+    - "best gift for pet loss"
+    - "how needle felting works"
+
+- [ ] **创建对比页面**
+  - "Needle Felting vs Painted Pet Portraits" 等对比内容，针对高购买意向关键词
+
+- [ ] **利用 testimonials 添加 Review schema**
+  - 首页已有客户评价，可转化为结构化数据
 
 ## P3 - 依赖清理
 

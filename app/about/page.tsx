@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "About Me",
   description:
     "Meet Wendy Zhang, a full-time needle felting artist based in Shanghai. Every piece is handmade with love and meticulous attention to detail.",
+  alternates: {
+    canonical: "/about",
+  },
 };
 
 const AboutPage = () => {

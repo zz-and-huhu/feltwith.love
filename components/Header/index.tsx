@@ -54,14 +54,14 @@ const Header = () => {
               >
                 <Image
                   src="/images/logo/logo-2.svg"
-                  alt="logo"
+                  alt="Felt With Love — custom needle felted pet portraits"
                   width={10}
                   height={10}
                   className="w-20"
                 />
                 <Image
                   src="/images/logo/logo.svg"
-                  alt="logo"
+                  alt="Felt With Love — custom needle felted pet portraits"
                   width={10}
                   height={10}
                   className="hidden w-20"

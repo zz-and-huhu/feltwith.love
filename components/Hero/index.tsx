@@ -32,7 +32,7 @@ const Hero = () => {
                 <div className="flex justify-end pt-4">
                   <Image
                     src="/images/hero/heroCat.jpg"
-                    alt="heroCat"
+                    alt="Custom needle felted orange tabby cat portrait"
                     width={700}
                     height={1000}
                     style={{ objectFit: "cover", objectPosition: "0 100%" }}

@@ -10,9 +10,12 @@ import Image from "@/components/Common/Image";
 import styles from "./BlogGrid.module.css";
 
 export const metadata: Metadata = {
-  title: "Blog",
+  title: "Needle Felting Blog — Tips, Stories & Behind the Scenes",
   description:
     "Stories, tips, and thoughts on needle felting — from pet memorials to craft techniques.",
+  alternates: {
+    canonical: "/blog",
+  },
 };
 
 export const revalidate = 10;
@@ -44,6 +47,14 @@ export default async function Page() {
         ]}
         description="My attitude & experience. Some thoughts to share."
       />
+
+      <section>
+        <div className="container">
+          <h1 className="mb-8 text-center font-serif text-3xl font-bold text-dark sm:text-4xl">
+            Needle Felting Blog
+          </h1>
+        </div>
+      </section>
 
       <section>
         <div className="container">

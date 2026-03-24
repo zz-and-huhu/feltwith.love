@@ -49,7 +49,7 @@ const featuresData: Feature[] = [
     icon: (
       <Image
         src="/images/features/quality.png"
-        alt="customized"
+        alt="Premium quality wool and materials used in needle felted pet portraits"
         width={900}
         height={900}
       />
