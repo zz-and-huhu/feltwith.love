@@ -70,6 +70,9 @@ importers:
       react-dom:
         specifier: 18.2.0
         version: 18.2.0(react@18.2.0)
+      react-masonry-css:
+        specifier: ^1.0.16
+        version: 1.0.16(react@18.2.0)
       react-modal-video:
         specifier: ^2.0.0
         version: 2.0.0(@babel/core@7.21.4)(eslint-plugin-jsx-a11y@6.7.1(eslint@8.33.0))(eslint-plugin-react-hooks@4.6.0(eslint@8.33.0))(eslint-plugin-react@7.32.2(eslint@8.33.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
@@ -82,6 +85,9 @@ importers:
       undici:
         specifier: 5.28.4
         version: 5.28.4
+      yet-another-react-lightbox:
+        specifier: ^3.29.1
+        version: 3.29.1(@types/react@18.0.34)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
     devDependencies:
       "@types/katex":
         specifier: 0.11.0
@@ -6396,6 +6402,14 @@ packages:
         integrity: sha512-/LLMVyas0ljjAtoYiPqYiL8VWXzUUdThrmU5+n20DZv+a+ClRoevUzw5JxU+Ieh5/c87ytoTBV9G1FiKfNJdmg==,
       }
 
+  react-masonry-css@1.0.16:
+    resolution:
+      {
+        integrity: sha512-KSW0hR2VQmltt/qAa3eXOctQDyOu7+ZBevtKgpNDSzT7k5LA/0XntNa9z9HKCdz3QlxmJHglTZ18e4sX4V8zZQ==,
+      }
+    peerDependencies:
+      react: ">=16.0.0"
+
   react-modal-video@2.0.0:
     resolution:
       {
@@ -8080,6 +8094,23 @@ packages:
         integrity: sha512-1/9UrdHjDZc0eOU0HxOHoS78C69UD3JRMvzlJ7S79S2nTaWRA/whGCTV8o9e/N/1Va9YIV7Q4sOxD8VV4pCWOw==,
       }
     engines: { node: ">=12" }
+
+  yet-another-react-lightbox@3.29.1:
+    resolution:
+      {
+        integrity: sha512-0cpa+wlleiy2cWNjS9qrcY0+SgZQH/4PDx2uupLMI9Ofip1f7pCgZ95PlVp/EsFsO4ufwOTea51bkLhcEXJJSg==,
+      }
+    engines: { node: ">=14" }
+    peerDependencies:
+      "@types/react": ^16 || ^17 || ^18 || ^19
+      "@types/react-dom": ^16 || ^17 || ^18 || ^19
+      react: ^16.8.0 || ^17 || ^18 || ^19
+      react-dom: ^16.8.0 || ^17 || ^18 || ^19
+    peerDependenciesMeta:
+      "@types/react":
+        optional: true
+      "@types/react-dom":
+        optional: true
 
   yocto-queue@0.1.0:
     resolution:
@@ -12052,6 +12083,10 @@ snapshots:
 
   react-is@18.3.1: {}
 
+  react-masonry-css@1.0.16(react@18.2.0):
+    dependencies:
+      react: 18.2.0
+
   react-modal-video@2.0.0(@babel/core@7.21.4)(eslint-plugin-jsx-a11y@6.7.1(eslint@8.33.0))(eslint-plugin-react-hooks@4.6.0(eslint@8.33.0))(eslint-plugin-react@7.32.2(eslint@8.33.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
     dependencies:
       babel-preset-react: 6.24.1
@@ -13136,6 +13171,13 @@ snapshots:
       string-width: 4.2.3
       y18n: 5.0.8
       yargs-parser: 21.1.1
+
+  yet-another-react-lightbox@3.29.1(@types/react@18.0.34)(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+    optionalDependencies:
+      "@types/react": 18.0.34
 
   yocto-queue@0.1.0: {}
 
