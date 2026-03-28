@@ -11,17 +11,20 @@
 3 个月数据，共 10 个关键词。网站还很新，Google 仍在建立认知。
 
 **品牌词（已有流量）：**
+
 - `felt with love` — 6 点击 / 61 展示，CTR ≈ 10%（健康）
 - `felt with love designs` — 2 点击 / 24 展示
 - `feltwithlove` — 1 点击 / 10 展示
 
 **非品牌词（机会词，展示极低但已被 Google 关联）：**
+
 - `felted pets` — 1 展示
 - `framed pet felt art` — 1 展示 ← 与产品直接相关，值得优化
 - `custom felted pet` — 1 展示 ← 高购买意图
 - `custom felt pet` — 1 展示
 
 **行动项：**
+
 - [x] 在 pricing 页和博客中自然融入 `custom felted pet`、`framed pet felt art` 等词 ✅
 - [ ] 持续写博客增加非品牌关键词覆盖（每篇瞄准一个目标词）
 - [ ] 一个月后（2026-04-28）再次检查 Search Console 数据变化
@@ -95,6 +98,7 @@ Based on a full-site SEO audit of feltwith.love.
 ### High Impact
 
 - [ ] **全站缺少 Schema 结构化数据**（部分完成）
+
   - [x] 首页：已添加 `LocalBusiness` + `Product` + `Offer` schema
   - [x] Pricing：添加 `Product` + `Offer` schema ✅ — 部署后用 [Rich Results Test](https://search.google.com/test/rich-results) 验证
   - [x] About：添加 `Person` schema ✅
@@ -106,6 +110,7 @@ Based on a full-site SEO audit of feltwith.love.
 ### Long-Term Growth
 
 - [ ] **增加博客内容频率**
+
   - 当前 3 篇文章，建议每月 1-2 篇
   - 推荐选题：
     - "needle felted pet portrait review"
@@ -126,17 +131,18 @@ Based on a full-site SEO audit of feltwith.love.
 按 SEO 价值排序，优先写高购买意图的关键词文章。
 
 已发布：
+
 - [x] **"How to Order a Custom Needle Felted Pet Portrait"** ✅ 已发布
 
 ### 接下来 5 篇（按优先级，建议每 2-3 周一篇，3 个月内完成）
 
-| 顺序 | 目标关键词 | 标题 | 为什么优先 |
-|------|----------|------|-----------|
-| 1 | `needle felted pet memorial` | Needle Felted Pet Memorial: A Unique Way to Honor Your Beloved Pet | "pet memorial gift" 搜索量大，购买意图强，核心客户群 |
-| 2 | `custom felted pet portrait` `framed pet felt art` | Framed Needle Felted Pet Portrait: The Perfect Wall Art Gift | Search Console 已出现这两个词，一篇同时强化两个关键词 |
-| 3 | `pet fur needle felting` | Can You Use Your Pet's Real Fur in Needle Felting? | 最常被问的问题，问题型关键词容易拿到 "People Also Ask" |
-| 4 | `custom pet portrait process` | What to Expect When Commissioning a Custom Felted Pet | 解答购买前疑虑（照片要求、时间、价格），直接推动转化 |
-| 5 | `needle felting behind the scenes` | Behind the Scenes: How I Create a Needle Felted Cat From Scratch | 过程展示建立信任，图片丰富有利于图片搜索流量 |
+| 顺序 | 目标关键词                                         | 标题                                                               | 为什么优先                                             |
+| ---- | -------------------------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------ |
+| 1    | `needle felted pet memorial`                       | Needle Felted Pet Memorial: A Unique Way to Honor Your Beloved Pet | "pet memorial gift" 搜索量大，购买意图强，核心客户群   |
+| 2    | `custom felted pet portrait` `framed pet felt art` | Framed Needle Felted Pet Portrait: The Perfect Wall Art Gift       | Search Console 已出现这两个词，一篇同时强化两个关键词  |
+| 3    | `pet fur needle felting`                           | Can You Use Your Pet's Real Fur in Needle Felting?                 | 最常被问的问题，问题型关键词容易拿到 "People Also Ask" |
+| 4    | `custom pet portrait process`                      | What to Expect When Commissioning a Custom Felted Pet              | 解答购买前疑虑（照片要求、时间、价格），直接推动转化   |
+| 5    | `needle felting behind the scenes`                 | Behind the Scenes: How I Create a Needle Felted Cat From Scratch   | 过程展示建立信任，图片丰富有利于图片搜索流量           |
 
 - [x] #1 Needle Felted Pet Memorial ✅ 草稿已写好（`scripts/create-blog-draft.ts`），待推送到 Notion 并发布
 - [ ] #2 Framed Needle Felted Pet Portrait

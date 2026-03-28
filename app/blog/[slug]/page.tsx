@@ -64,7 +64,9 @@ export async function generateMetadata({
 
 function buildArticleJsonLd(postProp: any, description?: string) {
   const ogImage = postProp.featuredImage?.file?.url
-    ? `https://feltwith.love/api/images/${postProp.id}/${postProp.featuredImage.file.url.split("/").pop()}`
+    ? `https://feltwith.love/api/images/${
+        postProp.id
+      }/${postProp.featuredImage.file.url.split("/").pop()}`
     : undefined;
 
   return {
