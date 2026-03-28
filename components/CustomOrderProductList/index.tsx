@@ -67,7 +67,7 @@ const CustomOrderProductList = () => {
     "Portrait size: ~4 inches wide (10 cm)",
     'Wooden frame: 18cm x 18cm (7" x 7")',
     "Includes neck fluff for cats (may exclude for larger dogs)",
-    "Ready-to-hang wall art for lasting memories 🖼️✨",
+    "Framed pet felt art, ready to hang for lasting memories 🖼️✨",
   ];
 
   const eightInchFrameFeatures = [
@@ -111,11 +111,11 @@ const CustomOrderProductList = () => {
     //   )),
     // },
     {
-      packageName: "6.5 Inch Framed Portraits",
+      packageName: "6.5 Inch Custom Felted Pet Portrait",
       price: "320",
       img: {
         src: "/images/pricing/frame.jpg",
-        alt: "framed portrait of felted pet",
+        alt: "custom felted pet portrait in wooden frame",
       },
       children: [
         ...sixInchFrameFeatures.map((v, index) => (
@@ -132,11 +132,11 @@ const CustomOrderProductList = () => {
       ],
     },
     {
-      packageName: "8 Inch Framed Portraits",
+      packageName: "8 Inch Custom Felted Pet Portrait",
       price: "360",
       img: {
         src: "/images/pricing/8-inch-dog.jpg",
-        alt: "framed portrait of felted pet",
+        alt: "framed pet felt art portrait in wooden frame",
       },
       children: [
         ...eightInchFrameFeatures.map((v, index) => (
@@ -197,11 +197,11 @@ const CustomOrderProductList = () => {
       />
       <div className="container">
         <SectionTitle
-          title="Styles for choices 🛍️"
+          title="Custom Felted Pet Portraits 🛍️"
           center
           width="665px"
           mb="40px"
-          paragraph="100% customized, and please note if you have any special requirements"
+          paragraph="Each piece is 100% handmade and customized to your pet. Let me know if you have any special requirements!"
         />
 
         <div className="mb-20 grid grid-cols-1 gap-x-10 gap-y-10 md:grid-cols-1 lg:grid-cols-2 lg:px-20">

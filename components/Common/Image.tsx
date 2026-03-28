@@ -6,7 +6,7 @@ import { getPlainFromRich, ImageProp } from "@/app/lib/notion/utils";
 
 // Reusable Image Container Component
 const ImageContainer = ({ children }: { children: React.ReactNode }) => (
-  <div className="overflow_-hidden relative  w-full rounded-lg">{children}</div>
+  <div className="overflow-hidden relative  w-full rounded-lg">{children}</div>
 );
 
 // Reusable Image Component (for both NextImage and standard img)
@@ -40,7 +40,7 @@ const ResponsiveImage = ({
         width={width}
         height={height}
         onError={onError}
-        className="transition-transform duration-300 hover:scale-105"
+        className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
       />
     );
   }

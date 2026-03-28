@@ -122,6 +122,66 @@ export default function Block(props: { block: RenderBlock }) {
         ></Image>
       );
 
+    case "video": {
+      const video = block.video;
+      const url =
+        video.type === "external" ? video.external.url : video.file?.url;
+      if (!url) return <></>;
+      const youtubeMatch = url.match(
+        /(?:youtube\.com\/(?:watch\?v=|embed\/)|youtu\.be\/)([\w-]+)/
+      );
+      if (youtubeMatch) {
+        return (
+          <div className="my-6 aspect-video w-full">
+            <iframe
+              className="h-full w-full rounded-lg"
+              src={`https://www.youtube.com/embed/${youtubeMatch[1]}`}
+              title="YouTube video"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            />
+          </div>
+        );
+      }
+      return (
+        <div className="my-6">
+          <video className="w-full rounded-lg" controls src={url} />
+        </div>
+      );
+    }
+    case "embed": {
+      const embedUrl = block.embed.url;
+      const ytMatch = embedUrl?.match(
+        /(?:youtube\.com\/(?:watch\?v=|embed\/)|youtu\.be\/)([\w-]+)/
+      );
+      if (ytMatch) {
+        return (
+          <div className="my-6 aspect-video w-full">
+            <iframe
+              className="h-full w-full rounded-lg"
+              src={`https://www.youtube.com/embed/${ytMatch[1]}`}
+              title="YouTube video"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            />
+          </div>
+        );
+      }
+      return embedUrl ? (
+        <div className="my-6 aspect-video w-full">
+          <iframe
+            className="h-full w-full rounded-lg"
+            src={embedUrl}
+            title="Embedded content"
+            allowFullScreen
+          />
+        </div>
+      ) : (
+        <></>
+      );
+    }
     case "divider":
       return <hr className="border-gray-200 my-8 border-t" />;
     case "callout":

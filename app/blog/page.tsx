@@ -82,7 +82,7 @@ function PostCard({ post }: { post: PostProp }) {
         href={getBlogLink(post.slug)}
         className="hover:bg-gray-50 flex h-full flex-col transition-colors"
       >
-        <div className="relative aspect-square w-full flex-1">
+        <div className="relative aspect-[4/3] w-full overflow-hidden rounded-lg">
           {post.featuredImage && (
             <Image image={post.featuredImage} className="my-0" />
           )}
@@ -93,7 +93,7 @@ function PostCard({ post }: { post: PostProp }) {
           )}
         </div>
 
-        <div className="flex flex-col">
+        <div className="flex flex-col pt-4">
           <div className="text-gray-500 mb-2 flex items-center gap-2 text-xs">
             {post.created_time && <span>{getDateStr(post.created_time)}</span>}
           </div>

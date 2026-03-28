@@ -5,9 +5,8 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-  // Configure images (if you're using the Next.js Image component)
   images: {
-    domains: [""], // Add domains for external images
+    remotePatterns: [],
   },
 
   webpack(config) {

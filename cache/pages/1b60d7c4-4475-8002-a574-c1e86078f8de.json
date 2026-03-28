@@ -7,7 +7,7 @@
       "page_id": "1b60d7c4-4475-8002-a574-c1e86078f8de"
     },
     "created_time": "2025-03-14T08:43:00.000Z",
-    "last_edited_time": "2025-03-15T12:30:00.000Z",
+    "last_edited_time": "2026-03-28T13:37:00.000Z",
     "created_by": {
       "object": "user",
       "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
@@ -24,7 +24,7 @@
         {
           "type": "text",
           "text": {
-            "content": "There are moments in life when a single thread of trust unravels into something extraordinary. For me, that thread began with a needle, some wool, and a stranger named Britt Schiks.",
+            "content": "Last year I launched my needle felting business online, starting from zero followers on Facebook. Most groups banned promotions, so I just quietly shared photos of my work and hoped someone would notice. I understood how hard it was to trust a stranger on the internet with something as personal as a pet portrait, especially one shipping from Shanghai. But slowly, a few people took a chance on me.",
             "link": null
           },
           "annotations": {
@@ -35,23 +35,24 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "There are moments in life when a single thread of trust unravels into something extraordinary. For me, that thread began with a needle, some wool, and a stranger named Britt Schiks.",
+          "plain_text": "Last year I launched my needle felting business online, starting from zero followers on Facebook. Most groups banned promotions, so I just quietly shared photos of my work and hoped someone would notice. I understood how hard it was to trust a stranger on the internet with something as personal as a pet portrait, especially one shipping from Shanghai. But slowly, a few people took a chance on me.",
           "href": null
         }
       ],
+      "icon": null,
       "color": "default"
     },
     "archived": false
   },
   {
     "object": "block",
-    "id": "1b70d7c4-4475-80c3-8d7e-d21540b5a2cd",
+    "id": "3310d7c4-4475-8062-b07c-ce5758d6b38c",
     "parent": {
       "type": "page_id",
       "page_id": "1b60d7c4-4475-8002-a574-c1e86078f8de"
     },
-    "created_time": "2025-03-15T12:28:00.000Z",
-    "last_edited_time": "2025-03-15T12:30:00.000Z",
+    "created_time": "2026-03-28T13:37:00.000Z",
+    "last_edited_time": "2026-03-28T13:37:00.000Z",
     "created_by": {
       "object": "user",
       "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
@@ -68,7 +69,7 @@
         {
           "type": "text",
           "text": {
-            "content": "Last year, I took a leap and launched my needle felting business online. Starting from zero followers on Facebook, I faced the quiet struggle every new artist knows: How do I show up in a world that doesn’t know I exist? Most groups banned promotions, so I stuck to quietly sharing photos of my work, hoping to connect with people. Deep down, I knew how hard it must’ve been for anyone to entrust a stranger online with something as precious as memorializing a lost pet. I was still figuring out global shipping from Shanghai, my hands trembling with every new DM. But slowly, a few brave souls took a chance on me. ",
+            "content": "Britt Schiks was one of them.",
             "link": null
           },
           "annotations": {
@@ -79,23 +80,24 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "Last year, I took a leap and launched my needle felting business online. Starting from zero followers on Facebook, I faced the quiet struggle every new artist knows: How do I show up in a world that doesn’t know I exist? Most groups banned promotions, so I stuck to quietly sharing photos of my work, hoping to connect with people. Deep down, I knew how hard it must’ve been for anyone to entrust a stranger online with something as precious as memorializing a lost pet. I was still figuring out global shipping from Shanghai, my hands trembling with every new DM. But slowly, a few brave souls took a chance on me. ",
+          "plain_text": "Britt Schiks was one of them.",
           "href": null
         }
       ],
+      "icon": null,
       "color": "default"
     },
     "archived": false
   },
   {
     "object": "block",
-    "id": "1b70d7c4-4475-8078-a20f-c9a281ed17f5",
+    "id": "3310d7c4-4475-80db-84be-eb85e5415295",
     "parent": {
       "type": "page_id",
       "page_id": "1b60d7c4-4475-8002-a574-c1e86078f8de"
     },
-    "created_time": "2025-03-15T12:28:00.000Z",
-    "last_edited_time": "2025-03-15T12:30:00.000Z",
+    "created_time": "2026-03-28T13:38:00.000Z",
+    "last_edited_time": "2026-03-28T13:38:00.000Z",
     "created_by": {
       "object": "user",
       "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
@@ -106,13 +108,13 @@
     },
     "has_children": false,
     "in_trash": false,
-    "type": "paragraph",
-    "paragraph": {
+    "type": "heading_2",
+    "heading_2": {
       "rich_text": [
         {
           "type": "text",
           "text": {
-            "content": "Then came Britt.",
+            "content": "The Commission: Two Cats, Two Personalities",
             "link": null
           },
           "annotations": {
@@ -123,23 +125,24 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "Then came Britt.",
+          "plain_text": "The Commission: Two Cats, Two Personalities",
           "href": null
         }
       ],
+      "is_toggleable": false,
       "color": "default"
     },
     "archived": false
   },
   {
     "object": "block",
-    "id": "1b70d7c4-4475-8085-a92f-e79290dc4701",
+    "id": "3310d7c4-4475-800b-a5fc-eab3d36fb8f2",
     "parent": {
       "type": "page_id",
       "page_id": "1b60d7c4-4475-8002-a574-c1e86078f8de"
     },
-    "created_time": "2025-03-15T12:28:00.000Z",
-    "last_edited_time": "2025-03-15T12:32:00.000Z",
+    "created_time": "2026-03-28T13:38:00.000Z",
+    "last_edited_time": "2026-03-28T13:38:00.000Z",
     "created_by": {
       "object": "user",
       "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
@@ -156,7 +159,7 @@
         {
           "type": "text",
           "text": {
-            "content": "She asked me to capture the spirits of her two beloved cats, Maxie and Felix. ",
+            "content": "Britt reached out and asked me to create needle felted portraits of her two cats, Maxie and Felix. She sent me a batch of photos and told me about each of them. Maxie had this calm, regal look. Felix was more of a goofball. Getting their expressions right mattered more to me than getting the fur color perfect, because that's what makes a custom cat portrait feel like the actual cat and not just a generic tabby.",
             "link": null
           },
           "annotations": {
@@ -167,10 +170,56 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "She asked me to capture the spirits of her two beloved cats, Maxie and Felix. ",
+          "plain_text": "Britt reached out and asked me to create needle felted portraits of her two cats, Maxie and Felix. She sent me a batch of photos and told me about each of them. Maxie had this calm, regal look. Felix was more of a goofball. Getting their expressions right mattered more to me than getting the fur color perfect, because that's what makes a custom cat portrait feel like the actual cat and not just a generic tabby.",
           "href": null
         }
       ],
+      "icon": null,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3310d7c4-4475-80e2-8353-f0cbb1c85904",
+    "parent": {
+      "type": "page_id",
+      "page_id": "1b60d7c4-4475-8002-a574-c1e86078f8de"
+    },
+    "created_time": "2026-03-28T13:38:00.000Z",
+    "last_edited_time": "2026-03-28T13:38:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "When Britt mentioned she'd be visiting Shanghai the following year, I knew I had time to get it right. I spent weeks on each piece, layering the wool, adjusting the eyes over and over. Maxie's gaze took the longest. There's a specific kind of calm in some cats' faces that's surprisingly hard to capture in wool.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "When Britt mentioned she'd be visiting Shanghai the following year, I knew I had time to get it right. I spent weeks on each piece, layering the wool, adjusting the eyes over and over. Maxie's gaze took the longest. There's a specific kind of calm in some cats' faces that's surprisingly hard to capture in wool.",
+          "href": null
+        }
+      ],
+      "icon": null,
       "color": "default"
     },
     "archived": false
@@ -183,7 +232,7 @@
       "page_id": "1b60d7c4-4475-8002-a574-c1e86078f8de"
     },
     "created_time": "2025-03-15T12:33:00.000Z",
-    "last_edited_time": "2025-03-15T12:33:00.000Z",
+    "last_edited_time": "2026-03-28T13:38:00.000Z",
     "created_by": {
       "object": "user",
       "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
@@ -225,13 +274,58 @@
   },
   {
     "object": "block",
-    "id": "1b70d7c4-4475-808b-976b-ee9b6d441b87",
+    "id": "3310d7c4-4475-800c-9276-e5f8344b45a5",
     "parent": {
       "type": "page_id",
       "page_id": "1b60d7c4-4475-8002-a574-c1e86078f8de"
     },
-    "created_time": "2025-03-15T12:32:00.000Z",
-    "last_edited_time": "2025-03-15T12:32:00.000Z",
+    "created_time": "2026-03-28T13:38:00.000Z",
+    "last_edited_time": "2026-03-28T13:38:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Meeting in Person",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Meeting in Person",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "3310d7c4-4475-804b-8a6f-c1aeb222a3a0",
+    "parent": {
+      "type": "page_id",
+      "page_id": "1b60d7c4-4475-8002-a574-c1e86078f8de"
+    },
+    "created_time": "2026-03-28T13:38:00.000Z",
+    "last_edited_time": "2026-03-28T13:38:00.000Z",
     "created_by": {
       "object": "user",
       "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
@@ -248,7 +342,7 @@
         {
           "type": "text",
           "text": {
-            "content": "When she mentioned she’d be visiting Shanghai the following year, it gave me lots of time—time to pour into every tuft of fur, every glint in their eyes. With each poke of the needle, I felt the weight of her trust. This wasn’t just about shaping wool; it was about weaving love into something you could hold.",
+            "content": "In March 2025, Britt flew to Shanghai and we met in person. I handed her the two finished portraits. She held them up next to her phone photos and just looked back and forth for a while. That moment is the reason I do this work. Not because of anything dramatic, but because I could tell she recognized them. They looked like her cats.",
             "link": null
           },
           "annotations": {
@@ -259,10 +353,11 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "When she mentioned she’d be visiting Shanghai the following year, it gave me lots of time—time to pour into every tuft of fur, every glint in their eyes. With each poke of the needle, I felt the weight of her trust. This wasn’t just about shaping wool; it was about weaving love into something you could hold.",
+          "plain_text": "In March 2025, Britt flew to Shanghai and we met in person. I handed her the two finished portraits. She held them up next to her phone photos and just looked back and forth for a while. That moment is the reason I do this work. Not because of anything dramatic, but because I could tell she recognized them. They looked like her cats.",
           "href": null
         }
       ],
+      "icon": null,
       "color": "default"
     },
     "archived": false
@@ -275,7 +370,7 @@
       "page_id": "1b60d7c4-4475-8002-a574-c1e86078f8de"
     },
     "created_time": "2025-03-15T12:32:00.000Z",
-    "last_edited_time": "2025-03-15T12:33:00.000Z",
+    "last_edited_time": "2026-03-28T13:38:00.000Z",
     "created_by": {
       "object": "user",
       "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
@@ -317,13 +412,13 @@
   },
   {
     "object": "block",
-    "id": "1b70d7c4-4475-809d-a808-febe65b3da6c",
+    "id": "3310d7c4-4475-80c4-b458-e21b4dc23810",
     "parent": {
       "type": "page_id",
       "page_id": "1b60d7c4-4475-8002-a574-c1e86078f8de"
     },
-    "created_time": "2025-03-15T12:28:00.000Z",
-    "last_edited_time": "2026-03-14T07:51:00.000Z",
+    "created_time": "2026-03-28T13:38:00.000Z",
+    "last_edited_time": "2026-03-28T13:38:00.000Z",
     "created_by": {
       "object": "user",
       "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
@@ -334,13 +429,13 @@
     },
     "has_children": false,
     "in_trash": false,
-    "type": "paragraph",
-    "paragraph": {
+    "type": "heading_2",
+    "heading_2": {
       "rich_text": [
         {
           "type": "text",
           "text": {
-            "content": "March 2025, Britt flew across oceans to meet me. As I handed her their portraits, my throat tightened. There they were: Maxie and Felix, alive in fiber form. In that moment, I realized this craft isn’t just about art—it’s about collapsing distance between hearts.",
+            "content": "What I Learned From This Project",
             "link": null
           },
           "annotations": {
@@ -351,23 +446,24 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "March 2025, Britt flew across oceans to meet me. As I handed her their portraits, my throat tightened. There they were: Maxie and Felix, alive in fiber form. In that moment, I realized this craft isn’t just about art—it’s about collapsing distance between hearts.",
+          "plain_text": "What I Learned From This Project",
           "href": null
         }
       ],
+      "is_toggleable": false,
       "color": "default"
     },
     "archived": false
   },
   {
     "object": "block",
-    "id": "1b70d7c4-4475-8063-a543-deff2f17f29a",
+    "id": "3310d7c4-4475-80d5-9a6d-e0b55b308ad5",
     "parent": {
       "type": "page_id",
       "page_id": "1b60d7c4-4475-8002-a574-c1e86078f8de"
     },
-    "created_time": "2025-03-15T12:28:00.000Z",
-    "last_edited_time": "2025-03-15T12:30:00.000Z",
+    "created_time": "2026-03-28T13:38:00.000Z",
+    "last_edited_time": "2026-03-28T13:38:00.000Z",
     "created_by": {
       "object": "user",
       "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
@@ -384,7 +480,7 @@
         {
           "type": "text",
           "text": {
-            "content": "Thank you to my early customers for believing in me before I believed in myself, for trusting me with your precious babies, and for turning wool and wire into friendships I'll carry forever.",
+            "content": "This was one of my earlier commissions, and it taught me a lot. International clients often can't pick up their order in person, so I've since improved my packaging and shipping process. But the core of the work hasn't changed: someone sends me photos of their pet, I study the details, and I try to make something that looks like the specific animal they love, not a generic version of the breed.",
             "link": null
           },
           "annotations": {
@@ -395,23 +491,24 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "Thank you to my early customers for believing in me before I believed in myself, for trusting me with your precious babies, and for turning wool and wire into friendships I'll carry forever.",
+          "plain_text": "This was one of my earlier commissions, and it taught me a lot. International clients often can't pick up their order in person, so I've since improved my packaging and shipping process. But the core of the work hasn't changed: someone sends me photos of their pet, I study the details, and I try to make something that looks like the specific animal they love, not a generic version of the breed.",
           "href": null
         }
       ],
+      "icon": null,
       "color": "default"
     },
     "archived": false
   },
   {
     "object": "block",
-    "id": "1b70d7c4-4475-8038-a0e3-cf3b88c42084",
+    "id": "3310d7c4-4475-8063-97a9-dfca91cf46cd",
     "parent": {
       "type": "page_id",
       "page_id": "1b60d7c4-4475-8002-a574-c1e86078f8de"
     },
-    "created_time": "2025-03-15T12:28:00.000Z",
-    "last_edited_time": "2025-03-15T12:30:00.000Z",
+    "created_time": "2026-03-28T13:38:00.000Z",
+    "last_edited_time": "2026-03-28T13:38:00.000Z",
     "created_by": {
       "object": "user",
       "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
@@ -428,7 +525,7 @@
         {
           "type": "text",
           "text": {
-            "content": "Pets leave paw prints on our hearts—but every now and then, those prints lead us to people who change our lives. This journey of wool and whiskers taught me that the greatest art isn’t what we make with our hands.",
+            "content": "If you're curious about how the ordering process works, I wrote a full guide here: ",
             "link": null
           },
           "annotations": {
@@ -439,23 +536,60 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "Pets leave paw prints on our hearts—but every now and then, those prints lead us to people who change our lives. This journey of wool and whiskers taught me that the greatest art isn’t what we make with our hands.",
+          "plain_text": "If you're curious about how the ordering process works, I wrote a full guide here: ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "How to Order a Custom Needle Felted Pet Portrait",
+            "link": {
+              "url": "https://feltwith.love/blog/how-to-order-custom-needle-felted-pet-portrait"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "How to Order a Custom Needle Felted Pet Portrait",
+          "href": "https://feltwith.love/blog/how-to-order-custom-needle-felted-pet-portrait"
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ".",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ".",
           "href": null
         }
       ],
+      "icon": null,
       "color": "default"
     },
     "archived": false
   },
   {
     "object": "block",
-    "id": "1b70d7c4-4475-8044-82a3-f2c691adfb0f",
+    "id": "3310d7c4-4475-8093-86cf-c3e316612177",
     "parent": {
       "type": "page_id",
       "page_id": "1b60d7c4-4475-8002-a574-c1e86078f8de"
     },
-    "created_time": "2025-03-15T12:28:00.000Z",
-    "last_edited_time": "2025-03-15T12:30:00.000Z",
+    "created_time": "2026-03-28T13:38:00.000Z",
+    "last_edited_time": "2026-03-28T13:39:00.000Z",
     "created_by": {
       "object": "user",
       "id": "fa626e5b-d1fc-42ce-9394-3d5014e1bebd"
@@ -472,7 +606,7 @@
         {
           "type": "text",
           "text": {
-            "content": "It’s the invisible threads we tie between souls.",
+            "content": "And if you'd like to see pricing or start a custom needle felted pet portrait of your own, you can check the ",
             "link": null
           },
           "annotations": {
@@ -483,10 +617,83 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "It’s the invisible threads we tie between souls.",
+          "plain_text": "And if you'd like to see pricing or start a custom needle felted pet portrait of your own, you can check the ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "pricing page",
+            "link": {
+              "url": "https://feltwith.love/pricing"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "pricing page",
+          "href": "https://feltwith.love/pricing"
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " or ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " or ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "contact me directly",
+            "link": {
+              "url": "https://feltwith.love/#contact"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "contact me directly",
+          "href": "https://feltwith.love/#contact"
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "!",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "!",
           "href": null
         }
       ],
+      "icon": null,
       "color": "default"
     },
     "archived": false
@@ -513,6 +720,7 @@
     "type": "paragraph",
     "paragraph": {
       "rich_text": [],
+      "icon": null,
       "color": "default"
     },
     "archived": false

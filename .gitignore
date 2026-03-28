@@ -4,3 +4,4 @@ node_modules/
 .email
 tmp
 .claude
+scripts/create-blog-draft.ts

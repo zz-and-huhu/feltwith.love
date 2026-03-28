@@ -35,6 +35,7 @@ const Hero = () => {
                     alt="Custom needle felted orange tabby cat portrait"
                     width={700}
                     height={1000}
+                    priority
                     style={{ objectFit: "cover", objectPosition: "0 100%" }}
                   />
                 </div>
