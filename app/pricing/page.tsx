@@ -64,11 +64,6 @@ const PricingPage = () => {
           { name: "Custom Order", href: "/pricing" },
         ]}
       />
-      <section className="container">
-        <h1 className="mb-8 text-center font-serif text-3xl font-bold text-dark sm:text-4xl">
-          Custom Needle Felted Pet Pricing
-        </h1>
-      </section>
       <CustomOrderProductList />
     </>
   );
