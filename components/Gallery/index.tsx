@@ -65,8 +65,10 @@ const Gallery = () => {
         {/* Masonry Grid */}
         <Masonry
           breakpointCols={breakpointColumns}
-          className="masonry-grid"
+          className="masonry-grid select-none"
           columnClassName="masonry-grid-column"
+          onContextMenu={(e: React.MouseEvent) => e.preventDefault()}
+          onDragStart={(e: React.DragEvent) => e.preventDefault()}
         >
           {filteredItems.map((item, index) => (
             <GalleryCard
@@ -78,12 +80,14 @@ const Gallery = () => {
         </Masonry>
 
         {/* Lightbox */}
-        <Lightbox
-          open={lightboxIndex >= 0}
-          index={lightboxIndex}
-          close={() => setLightboxIndex(-1)}
-          slides={lightboxSlides}
-        />
+        <div onContextMenu={(e) => e.preventDefault()}>
+          <Lightbox
+            open={lightboxIndex >= 0}
+            index={lightboxIndex}
+            close={() => setLightboxIndex(-1)}
+            slides={lightboxSlides}
+          />
+        </div>
       </div>
     </section>
   );
@@ -109,6 +113,8 @@ const GalleryCard = ({
           height={item.height}
           className="w-full transition-transform duration-500 group-hover:scale-[1.03]"
           sizes="(max-width: 575px) 100vw, (max-width: 992px) 50vw, 33vw"
+          draggable={false}
+          onContextMenu={(e) => e.preventDefault()}
         />
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
         <div className="pointer-events-none absolute bottom-0 left-0 right-0 translate-y-2 p-4 opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
