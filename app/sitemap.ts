@@ -16,6 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${siteUrl}/pricing`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${siteUrl}/contact`, changeFrequency: "monthly", priority: 0.5 },
     { url: `${siteUrl}/gallery`, changeFrequency: "weekly", priority: 0.7 },
+    { url: `${siteUrl}/privacy`, changeFrequency: "yearly", priority: 0.3 },
   ];
 
   const blogPages: MetadataRoute.Sitemap = Object.values(blogIndex.prop_by_id)
