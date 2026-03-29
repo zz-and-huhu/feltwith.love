@@ -21,14 +21,24 @@ const jsonLd = {
     name: "Wendy Zhang",
     url: "https://feltwith.love/about",
   },
-  image: galleryItems.map((item) => ({
-    "@type": "ImageObject",
-    contentUrl: `https://feltwith.love${item.src}`,
-    name: item.alt,
-    description: item.description,
-    width: item.width,
-    height: item.height,
-  })),
+  image: galleryItems
+    .filter((item) => !item.video)
+    .map((item) => ({
+      "@type": "ImageObject",
+      contentUrl: `https://feltwith.love${item.src}`,
+      name: item.alt,
+      description: item.description,
+      width: item.width,
+      height: item.height,
+    })),
+  video: galleryItems
+    .filter((item) => item.video)
+    .map((item) => ({
+      "@type": "VideoObject",
+      contentUrl: `https://feltwith.love${item.src}`,
+      name: item.alt,
+      description: item.description,
+    })),
 };
 
 const GalleryPage = () => {

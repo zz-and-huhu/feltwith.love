@@ -5,6 +5,7 @@ export type GalleryItem = {
   category: string[];
   width: number;
   height: number;
+  video?: boolean;
 };
 
 export const categories = [
@@ -19,6 +20,26 @@ export const categories = [
 // Add your gallery items here.
 // Images go in public/images/gallery/
 export const galleryItems: GalleryItem[] = [
+  {
+    src: "/images/gallery/felting-process-1.mp4",
+    alt: "Needle felting process — shaping wool with a felting needle",
+    description:
+      "Watch the needle felting process in action — shaping soft wool into a lifelike form, one poke at a time.",
+    category: ["working-process"],
+    width: 640,
+    height: 480,
+    video: true,
+  },
+  {
+    src: "/images/gallery/felting-process-2.mp4",
+    alt: "Needle felting process — adding detail to a portrait",
+    description:
+      "Adding fine details to a needle felted portrait — building texture and expression with each careful stroke.",
+    category: ["working-process"],
+    width: 640,
+    height: 480,
+    video: true,
+  },
   {
     src: "/images/gallery/black-cat-framed-portrait.jpg",
     alt: "Black cat framed portrait",

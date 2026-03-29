@@ -4,6 +4,7 @@ import { useState, useMemo } from "react";
 import Image from "next/image";
 import Masonry from "react-masonry-css";
 import Lightbox from "yet-another-react-lightbox";
+import Video from "yet-another-react-lightbox/plugins/video";
 import "yet-another-react-lightbox/styles.css";
 import SectionTitle from "@/components/Common/SectionTitle";
 import { galleryItems, categories, GalleryItem } from "./galleryData";
@@ -27,13 +28,24 @@ const Gallery = () => {
     [activeCategory],
   );
 
-  const lightboxSlides = filteredItems.map((item) => ({
-    src: item.src,
-    width: item.width,
-    height: item.height,
-    alt: item.alt,
-    title: item.description,
-  }));
+  const lightboxSlides = filteredItems.map((item) =>
+    item.video
+      ? {
+          type: "video" as const,
+          sources: [{ src: item.src, type: "video/mp4" }],
+          width: item.width,
+          height: item.height,
+          alt: item.alt,
+          title: item.description,
+        }
+      : {
+          src: item.src,
+          width: item.width,
+          height: item.height,
+          alt: item.alt,
+          title: item.description,
+        },
+  );
 
   return (
     <section className="pb-16 pt-4 md:pb-20 lg:pb-28">
@@ -86,6 +98,7 @@ const Gallery = () => {
             index={lightboxIndex}
             close={() => setLightboxIndex(-1)}
             slides={lightboxSlides}
+            plugins={[Video]}
           />
         </div>
       </div>
@@ -106,16 +119,30 @@ const GalleryCard = ({
       onClick={onClick}
     >
       <div className="relative">
-        <Image
-          src={item.src}
-          alt={item.alt}
-          width={item.width}
-          height={item.height}
-          className="w-full transition-transform duration-500 group-hover:scale-[1.03]"
-          sizes="(max-width: 575px) 100vw, (max-width: 992px) 50vw, 33vw"
-          draggable={false}
-          onContextMenu={(e) => e.preventDefault()}
-        />
+        {item.video ? (
+          <video
+            src={item.src}
+            width={item.width}
+            height={item.height}
+            className="w-full"
+            autoPlay
+            loop
+            muted
+            playsInline
+            onContextMenu={(e) => e.preventDefault()}
+          />
+        ) : (
+          <Image
+            src={item.src}
+            alt={item.alt}
+            width={item.width}
+            height={item.height}
+            className="w-full transition-transform duration-500 group-hover:scale-[1.03]"
+            sizes="(max-width: 575px) 100vw, (max-width: 992px) 50vw, 33vw"
+            draggable={false}
+            onContextMenu={(e) => e.preventDefault()}
+          />
+        )}
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
         <div className="pointer-events-none absolute bottom-0 left-0 right-0 translate-y-2 p-4 opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
           <p className="text-sm font-medium leading-snug text-white">
