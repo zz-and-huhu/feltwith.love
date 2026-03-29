@@ -30,7 +30,9 @@ const PrivacyPage = () => {
             </p>
             <ul className="mb-8 list-disc space-y-1 pl-6">
               <li>Your name and email address</li>
-              <li>Photos of your pet (used solely to create your custom piece)</li>
+              <li>
+                Photos of your pet (used solely to create your custom piece)
+              </li>
               <li>Payment information (processed securely through Stripe)</li>
               <li>Shipping address</li>
             </ul>
