@@ -24,7 +24,7 @@ const Gallery = () => {
       activeCategory === "all"
         ? galleryItems
         : galleryItems.filter((item) => item.category.includes(activeCategory)),
-    [activeCategory]
+    [activeCategory],
   );
 
   const lightboxSlides = filteredItems.map((item) => ({
@@ -40,7 +40,7 @@ const Gallery = () => {
       <div className="container">
         <SectionTitle
           title="Gallery"
-          paragraph="Every piece is handcrafted with love. Browse my needle felted creations."
+          paragraph={"Every piece is handcrafted with love.\nBrowse my needle felted creations."}
           center
           mb="48px"
         />
